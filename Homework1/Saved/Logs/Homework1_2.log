@@ -1952,3 +1952,491 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.10.25-19.27.43:204][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 1.91 sec)
 [2024.10.25-19.27.43:205][481]AssetCheck: New page: Asset Save: LevelOne
 [2024.10.25-19.27.43:205][481]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.25-19.34.43:738][646]LogAssetTools: Warning: Failed to import 'C:\Users\aherv\Downloads\stylized_spawn_point.usdz'. Unknown extension 'usdz'.
+[2024.10.25-19.36.08:487][ 65]LogAssetTools: Warning: Failed to import 'C:\Users\aherv\Downloads\stylized_spawn_point_gltf.zip'. Unknown extension 'zip'.
+[2024.10.25-19.36.17:233][173]LogAssetTools: Warning: Failed to import 'C:\Users\aherv\Downloads\stylized_spawn_point_gltf.zip'. Unknown extension 'zip'.
+[2024.10.25-19.36.34:350][310]LogAssetTools: Warning: Failed to import 'C:\Users\aherv\Downloads\stylized_spawn_point_gltf/scene.bin'. Unknown extension 'bin'.
+[2024.10.25-19.36.40:771][310]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2024.10.25-19.36.40:788][310]LogInterchangeEngine: [Pending] Importing
+[2024.10.25-19.36.40:788][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...zed_spawn_point_gltf/scene.gltf]
+[2024.10.25-19.36.40:790][310]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.10.25-19.36.40:791][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_Base_MAT_baseColor.png]
+[2024.10.25-19.36.40:791][310]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.10.25-19.36.40:791][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_Base_MAT_metallicRoughness.png]
+[2024.10.25-19.36.40:792][310]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.10.25-19.36.40:792][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_Base_MAT_normal.png]
+[2024.10.25-19.36.40:794][310]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.10.25-19.36.40:794][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_SideRocks_MAT_baseColor.png]
+[2024.10.25-19.36.40:795][310]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.40:795][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_SideRocks_MAT_metallicRoughness.png]
+[2024.10.25-19.36.40:795][310]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.10.25-19.36.40:796][310]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_SideRocks_MAT_normal.png]
+[2024.10.25-19.36.40:796][310]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.10.25-19.36.40:797][310]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.10.25-19.36.40:797][310]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.10.25-19.36.40:798][310]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.10.25-19.36.40:798][310]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.10.25-19.36.40:799][310]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.10.25-19.36.40:799][310]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.10.25-19.36.40:823][311]LogAutomationController: Ignoring very large delta of 6.52 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.25-19.36.40:921][311]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.10.25-19.36.40:939][311]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.41:348][313]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.41:505][313]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.41:587][313]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_SideRocks_MAT_metallicRoughness.Base_SideRocks_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.41:623][313]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.36.41:629][313]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_Base_MAT_metallicRoughness.Base_Base_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.41:661][313]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.36.41:694][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:694][314]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.10.25-19.36.41:695][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_TreeBark_MAT_baseColor.png]
+[2024.10.25-19.36.41:695][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:695][314]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.10.25-19.36.41:695][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_TreeBark_MAT_metallicRoughness.png]
+[2024.10.25-19.36.41:695][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Base_TreeBark_MAT_normal.png]
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Foliage_MAT_baseColor.png]
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Grass_MAT_baseColor.png]
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.10.25-19.36.41:696][314]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/TreeLeaves_MAT_baseColor.png]
+[2024.10.25-19.36.41:765][314]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.41:995][314]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.42:171][315]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.42:171][315]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.10.25-19.36.42:171][315]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl..._point_gltf/textures/Water_MAT_baseColor.png]
+[2024.10.25-19.36.42:172][315]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.36.42:172][315]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.10.25-19.36.42:263][316]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.10.25-19.36.42:338][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.42:346][318]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.25-19.36.42:362][318]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_Base_MAT_normal.Base_Base_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.42:714][318]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_SideRocks_MAT_normal.Base_SideRocks_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.42:813][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.42:931][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.42:943][318]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.36.43:003][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.43:014][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.43:014][318]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.10.25-19.36.43:028][318]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.36.43:030][318]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.10.25-19.36.43:034][318]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.10.25-19.36.43:034][318]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.10.25-19.36.43:057][318]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_SideRocks_MAT_baseColor.Base_SideRocks_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.43:435][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/TreeLeaves_MAT_baseColor.TreeLeaves_MAT_baseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.43:442][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Foliage_MAT_baseColor.Foliage_MAT_baseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.43:456][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Grass_MAT_baseColor.Grass_MAT_baseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.43:495][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_Base_MAT_baseColor.Base_Base_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.43:692][320]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.36.44:033][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_TreeBark_MAT_metallicRoughness.Base_TreeBark_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.44:093][320]LogStaticMesh: Display: Building static mesh Object_33...
+[2024.10.25-19.36.44:093][320]LogStaticMesh: Display: Building static mesh Object_24...
+[2024.10.25-19.36.44:093][320]LogStaticMesh: Display: Building static mesh Object_10...
+[2024.10.25-19.36.44:093][320]LogStaticMesh: Display: Building static mesh Object_6...
+[2024.10.25-19.36.44:103][320]LogStaticMesh: Display: Building static mesh Object_30...
+[2024.10.25-19.36.44:104][320]LogStaticMesh: Display: Building static mesh Object_35...
+[2024.10.25-19.36.44:120][320]LogStaticMesh: Built static mesh [0.03s] /Game/MyAssets/stylized_spawn_point_gltf/Object_24.Object_24
+[2024.10.25-19.36.44:125][320]LogStaticMesh: Built static mesh [0.03s] /Game/MyAssets/stylized_spawn_point_gltf/Object_33.Object_33
+[2024.10.25-19.36.44:128][320]LogStaticMesh: Built static mesh [0.04s] /Game/MyAssets/stylized_spawn_point_gltf/Object_6.Object_6
+[2024.10.25-19.36.44:145][320]LogStaticMesh: Display: Building static mesh Object_11...
+[2024.10.25-19.36.44:145][320]LogStaticMesh: Display: Building static mesh Object_8...
+[2024.10.25-19.36.44:145][320]LogStaticMesh: Display: Building static mesh Object_15...
+[2024.10.25-19.36.44:155][320]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/stylized_spawn_point_gltf/Object_11.Object_11
+[2024.10.25-19.36.44:158][320]LogStaticMesh: Built static mesh [0.01s] /Game/MyAssets/stylized_spawn_point_gltf/Object_8.Object_8
+[2024.10.25-19.36.44:163][320]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized_spawn_point_gltf/Object_15.Object_15
+[2024.10.25-19.36.44:167][320]LogStaticMesh: Display: Building static mesh Object_4...
+[2024.10.25-19.36.44:167][320]LogStaticMesh: Display: Building static mesh Object_19...
+[2024.10.25-19.36.44:167][320]LogStaticMesh: Display: Building static mesh Object_13...
+[2024.10.25-19.36.44:191][320]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized_spawn_point_gltf/Object_19.Object_19
+[2024.10.25-19.36.44:224][320]LogStaticMesh: Built static mesh [0.06s] /Game/MyAssets/stylized_spawn_point_gltf/Object_13.Object_13
+[2024.10.25-19.36.44:228][320]LogStaticMesh: Built static mesh [0.05s] /Game/MyAssets/stylized_spawn_point_gltf/Object_4.Object_4
+[2024.10.25-19.36.44:248][320]LogStaticMesh: Display: Building static mesh Object_17...
+[2024.10.25-19.36.44:248][320]LogStaticMesh: Display: Building static mesh Object_21...
+[2024.10.25-19.36.44:248][320]LogStaticMesh: Display: Building static mesh Object_32...
+[2024.10.25-19.36.44:266][320]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized_spawn_point_gltf/Object_21.Object_21
+[2024.10.25-19.36.44:266][320]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized_spawn_point_gltf/Object_17.Object_17
+[2024.10.25-19.36.44:268][320]LogStaticMesh: Display: Building static mesh Object_23...
+[2024.10.25-19.36.44:268][320]LogStaticMesh: Display: Building static mesh Object_28...
+[2024.10.25-19.36.44:290][320]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized_spawn_point_gltf/Object_28.Object_28
+[2024.10.25-19.36.44:295][320]LogStaticMesh: Display: Building static mesh Object_26...
+[2024.10.25-19.36.44:295][320]LogStaticMesh: Built static mesh [0.03s] /Game/MyAssets/stylized_spawn_point_gltf/Object_23.Object_23
+[2024.10.25-19.36.44:314][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Water_MAT_baseColor.Water_MAT_baseColor (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.44:339][320]LogStaticMesh: Built static mesh [0.04s] /Game/MyAssets/stylized_spawn_point_gltf/Object_26.Object_26
+[2024.10.25-19.36.44:343][320]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_TreeBark_MAT_normal.Base_TreeBark_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.44:348][320]LogInterchangeEngine: [Success] Import Done
+[2024.10.25-19.36.44:438][321]LogInterchangeEngine: [Success] Import Done
+[2024.10.25-19.36.44:624][321]LogStaticMesh: Built static mesh [0.53s] /Game/MyAssets/stylized_spawn_point_gltf/Object_10.Object_10
+[2024.10.25-19.36.44:685][321]LogStaticMesh: Built static mesh [0.58s] /Game/MyAssets/stylized_spawn_point_gltf/Object_35.Object_35
+[2024.10.25-19.36.44:686][321]LogStaticMesh: Built static mesh [0.44s] /Game/MyAssets/stylized_spawn_point_gltf/Object_32.Object_32
+[2024.10.25-19.36.44:758][322]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/TreeLeaves_MAT_baseColor.TreeLeaves_MAT_baseColor (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.44:764][322]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Foliage_MAT_baseColor.Foliage_MAT_baseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.44:843][322]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/textures/Base_TreeBark_MAT_baseColor.Base_TreeBark_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.45:008][322]LogStaticMesh: Built static mesh [0.91s] /Game/MyAssets/stylized_spawn_point_gltf/Object_30.Object_30
+[2024.10.25-19.36.45:184][322]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_TreeBark_MAT_normal.Base_TreeBark_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.45:548][326]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_TreeBark_MAT_metallicRoughness.Base_TreeBark_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.45:843][328]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_TreeBark_MAT_baseColor.Base_TreeBark_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.46:215][332]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_SideRocks_MAT_baseColor.Base_SideRocks_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.46:217][332]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_SideRocks_MAT_normal.Base_SideRocks_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.46:999][338]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_Base_MAT_normal.Base_Base_MAT_normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.47:001][338]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_Base_MAT_metallicRoughness.Base_Base_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.47:660][344]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_Base_MAT_baseColor.Base_Base_MAT_baseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.48:234][350]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Water_MAT_baseColor.Water_MAT_baseColor (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.48:591][354]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Grass_MAT_baseColor.Grass_MAT_baseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.36.48:624][354]LogTexture: Display: Building textures: /Game/MyAssets/stylized_spawn_point_gltf/Base_SideRocks_MAT_metallicRoughness.Base_SideRocks_MAT_metallicRoughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.20:044][561]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\aherv\Downloads\stylized-crystal-cluster/source/Crystal.fbx)
+[2024.10.25-19.37.20:091][561]LogFbx: Loading FBX Scene from C:\Users\aherv\Downloads\stylized-crystal-cluster/source/Crystal.fbx
+[2024.10.25-19.37.20:106][561]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.25-19.37.24:693][561]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.10.25-19.37.24:820][561]LogFbxMaterialImport: Display: Unable to find Texture file A:\2- Personal Job\0- 3D Honnun Videos\3- Crystals\Textures\Crystal_MAT_BaseColor.png
+[2024.10.25-19.37.24:820][561]LogFbxMaterialImport: Display: Unable to find Texture file A:\2- Personal Job\0- 3D Honnun Videos\3- Crystals\Textures\Crystal_MAT_Emissive.png
+[2024.10.25-19.37.24:821][561]LogFbxMaterialImport: Display: Unable to find Texture file A:\2- Personal Job\0- 3D Honnun Videos\3- Crystals\Textures\Crystal_MAT_Roughness.png
+[2024.10.25-19.37.24:821][561]LogFbxMaterialImport: Display: Unable to find Texture file A:\2- Personal Job\0- 3D Honnun Videos\3- Crystals\Textures\Crystal_MAT_Normal.png
+[2024.10.25-19.37.24:838][561]LogStaticMesh: Display: Building static mesh Crystal...
+[2024.10.25-19.37.24:860][561]LogStaticMesh: Built static mesh [0.02s] /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.37.24:890][561]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.10.25-19.37.25:068][561]LogInterchangeEngine: [Pending] Importing
+[2024.10.25-19.37.25:068][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/Crystal_MAT_BaseColor.png]
+[2024.10.25-19.37.25:069][561]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.10.25-19.37.25:069][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/Crystal_MAT_Emissive.png]
+[2024.10.25-19.37.25:070][561]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.10.25-19.37.25:070][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/Crystal_MAT_Metallic.png]
+[2024.10.25-19.37.25:071][561]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.10.25-19.37.25:071][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/Crystal_MAT_Normal.png]
+[2024.10.25-19.37.25:072][561]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.10.25-19.37.25:072][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/Crystal_MAT_Roughness.png]
+[2024.10.25-19.37.25:073][561]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.10.25-19.37.25:073][561]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/aherv/Downl...tal-cluster/textures/internal_ground_ao_texture.jpeg]
+[2024.10.25-19.37.25:138][561]LogInterchangeImport: JPEG file [C:/Users/aherv/Downloads/stylized-crystal-cluster/textures/internal_ground_ao_texture.jpeg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2024.10.25-19.37.25:209][561]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.10.25-19.37.25:210][561]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/internal_ground_ao_texture.internal_ground_ao_texture (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.25:210][561]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.10.25-19.37.25:214][561]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_Metallic.Crystal_MAT_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.25:385][562]LogAutomationController: Ignoring very large delta of 5.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.25-19.37.25:413][562]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.10.25-19.37.25:453][562]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.10.25-19.37.25:774][562]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_Roughness.Crystal_MAT_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.25:936][562]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.10.25-19.37.25:936][562]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.10.25-19.37.26:056][562]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.10.25-19.37.26:062][562]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_Emissive.Crystal_MAT_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.26:074][563]LogInterchangeEngine: [Success] Import Done
+[2024.10.25-19.37.26:163][563]LogInterchangeEngine: [Success] Import Done
+[2024.10.25-19.37.26:334][563]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_BaseColor.Crystal_MAT_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.26:786][564]LogTexture: Display: Building textures: /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_Normal.Crystal_MAT_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: ================================================
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Total job queries 110, among them cache hits 61 (55.45%)
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Tracking 39 distinct input hashes that result in 26 distinct outputs (66.67%)
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: RAM used: 834.25 KiB of 819.20 MiB budget. Usage: 0.10%
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Shaders Compiled: 39
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Jobs assigned 39, completed 39 (100%)
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Average time worker was idle: 418.43 s
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Time job spent in pending queue: average 0.39 s, longest 3.35 s
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Job execution time: average 2.45 s, max 3.62 s
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Job life time (pending + execution): average 2.84 s, max 4.11
+[2024.10.25-19.37.27:412][565]LogShaderCompilers: Display: Shader code size: average 34.842 KiB, min 4.465 KiB, max 42.328 KiB
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.38 s
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.26 jobs/batch
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Total thread time: 41.67 s
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Total thread preprocess time: 9.775 s
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Percentage time preprocessing: 23.46%
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Effective parallelization: 2.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 1.27 sec, max 2.37 sec, min 0.69 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 1.22 sec, max 2.03 sec, min 0.63 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 1.13 sec, max 1.13 sec, min 1.13 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 1.09 sec, max 2.02 sec, min 0.66 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.50% of total time (compiled    9 times, average 1.27 sec, max 2.37 sec, min 0.69 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.45% of total time (compiled    9 times, average 1.09 sec, max 2.02 sec, min 0.66 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.63% of total time (compiled    5 times, average 1.22 sec, max 2.03 sec, min 0.63 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                             FDebugViewModeVS - 9.59% of total time (compiled    4 times, average 1.00 sec, max 1.20 sec, min 0.80 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.26% of total time (compiled    4 times, average 0.86 sec, max 1.16 sec, min 0.76 sec)
+[2024.10.25-19.37.27:413][565]LogShaderCompilers: Display: ================================================
+[2024.10.25-19.37.44:751][791]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.37.44:757][791]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.37.44:758][791]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_0
+[2024.10.25-19.37.46:242][812]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.37.46:242][812]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.37.46:243][812]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_2
+[2024.10.25-19.38.21:488][234]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MyAssets/stylized-crystal-cluster/source/Crystal.Crystal
+[2024.10.25-19.38.21:679][234]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-19.38.21:679][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-19.38.22:460][234]LogViewport: Scene viewport resized to 1213x715, mode Windowed.
+[2024.10.25-19.38.32:398][313]LogSlate: Took 0.009768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.25-19.38.46:184][412]LogViewport: Scene viewport resized to 1405x875, mode Windowed.
+[2024.10.25-19.38.47:023][419]LogViewport: Scene viewport resized to 1401x900, mode Windowed.
+[2024.10.25-19.38.47:386][420]LogViewport: Scene viewport resized to 1405x875, mode Windowed.
+[2024.10.25-19.38.48:028][432]LogSlate: Window 'Crystal' being destroyed
+[2024.10.25-19.38.56:025][521]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MyAssets/stylized-crystal-cluster/source/Crystal_MAT.Crystal_MAT
+[2024.10.25-19.38.56:033][521]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-19.38.56:033][521]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-19.38.56:187][521]LogSlate: The tab "MaterialEditor_Substrate" attempted to spawn in layout 'Standalone_MaterialEditor_Layout_v14' but failed for some reason. An "unrecognized tab" will be returned instead.
+[2024.10.25-19.38.56:262][521]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.38.56:262][521]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.25-19.38.56:262][521]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.38.56:270][521]LogViewport: Scene viewport resized to 376x435, mode Windowed.
+[2024.10.25-19.38.56:382][523]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.10.25-19.38.56:382][523]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.25-19.38.56:382][523]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.25-19.38.56:382][523]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.25-19.38.56:382][523]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.39.17:450][517]LogDerivedDataCache: C:/Users/aherv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.594 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1255 files in 2177 folders with total size 144 MiB.
+[2024.10.25-19.39.20:426][644]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.20:426][644]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.25-19.39.20:426][644]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.20:526][646]MaterialEditorStats: Base pass shader: 193 instructions
+[2024.10.25-19.39.20:526][646]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.25-19.39.20:526][646]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.25-19.39.20:526][646]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.25-19.39.20:526][646]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.39.24:447][824]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.24:447][824]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.24:447][824]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.24:448][824]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.25:160][847]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.39.33:080][199]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.33:080][199]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.33:080][199]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.33:080][199]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.33:184][201]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.39.46:872][798]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.46:872][798]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.46:872][798]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.46:872][798]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.46:964][800]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.39.56:307][217]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.56:307][217]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.10.25-19.39.56:307][217]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.56:307][217]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.57:108][249]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.57:108][249]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.25-19.39.57:108][249]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.10.25-19.39.57:108][249]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.57:108][249]MaterialEditorStats: Shader Count: 2
+[2024.10.25-19.39.57:201][253]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.10.25-19.39.57:201][253]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.57:202][253]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.25-19.39.57:202][253]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.10.25-19.39.57:202][253]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.57:202][253]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.39.58:707][310]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.39.58:708][310]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.39.58:708][310]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.58:708][310]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.39.59:156][326]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.39.59:156][326]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.39.59:156][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.59:156][326]MaterialEditorStats: Shader Count: 1
+[2024.10.25-19.39.59:481][340]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.59:481][340]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.39.59:481][340]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.39.59:481][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.59:481][340]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: Base pass shader: 201 instructions
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: Texture samplers: 5/16
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.39.59:571][344]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.40.23:563][503]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.40.23:563][503]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.40.23:564][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.23:564][503]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: Base pass shader: 201 instructions
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: Texture samplers: 5/16
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.23:653][505]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.40.27:038][653]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.40.27:038][653]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.40.27:038][653]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.27:038][653]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: ================================================
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Total job queries 247, among them cache hits 162 (65.59%)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Tracking 74 distinct input hashes that result in 44 distinct outputs (59.46%)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: RAM used: 1.57 MiB of 819.20 MiB budget. Usage: 0.19%
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Shaders Compiled: 74
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Jobs assigned 75, completed 74 (98.67%)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Average time worker was idle: 200.25 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 3.35 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Job execution time: average 1.69 s, max 3.62 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Job life time (pending + execution): average 1.91 s, max 4.11
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Shader code size: average 34.894 KiB, min 4.465 KiB, max 42.328 KiB
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.47 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Jobs were issued in 67 batches (only local compilation was used), average 1.12 jobs/batch
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Average processing rate: 2.69 jobs/sec
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Total thread time: 62.173 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Total thread preprocess time: 12.211 s
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Percentage time preprocessing: 19.64%
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Effective parallelization: 2.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.22 sec, max 1.22 sec, min 1.22 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    4 times, average 1.00 sec, max 1.20 sec, min 0.80 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   20 times, average 0.92 sec, max 2.37 sec, min 0.47 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   10 times, average 0.90 sec, max 2.03 sec, min 0.48 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    4 times, average 0.86 sec, max 1.16 sec, min 0.76 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.49% of total time (compiled   20 times, average 0.92 sec, max 2.37 sec, min 0.47 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.73% of total time (compiled   20 times, average 0.83 sec, max 2.02 sec, min 0.50 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.50% of total time (compiled   10 times, average 0.90 sec, max 2.03 sec, min 0.48 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.14% of total time (compiled   11 times, average 0.46 sec, max 1.57 sec, min 0.21 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display:                                             FDebugViewModeVS - 6.43% of total time (compiled    4 times, average 1.00 sec, max 1.20 sec, min 0.80 sec)
+[2024.10.25-19.40.27:740][683]LogShaderCompilers: Display: ================================================
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: Base pass shader: 203 instructions
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: Texture samplers: 6/16
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.27:759][684]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.40.34:330][961]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.40.34:330][961]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.40.34:330][961]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.34:330][961]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: Base pass shader: 203 instructions
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: Texture samplers: 6/16
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.34:426][963]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.40.46:934][577]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.40.46:935][577]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.46:935][577]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.46:935][577]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.40.47:513][605]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.25-19.40.47:513][605]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.47:513][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.47:514][605]MaterialEditorStats: Shader Count: 1
+[2024.10.25-19.40.47:726][615]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.47:726][615]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.25-19.40.47:726][615]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.47:726][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.47:726][615]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: Base pass shader: 211 instructions
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: Texture samplers: 7/16
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.47:834][620]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.40.56:760][978]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.40.56:761][978]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.56:761][978]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.56:761][978]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: Base pass shader: 211 instructions
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: Texture samplers: 7/16
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.40.56:861][980]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.41.17:624][975]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.41.17:624][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.41.17:624][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.17:625][975]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.41.18:360][  6]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.41.18:360][  6]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.25-19.41.18:360][  6]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.41.18:360][  6]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.18:361][  6]MaterialEditorStats: Shader Count: 2
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: Texture samplers: 6/16
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.18:879][ 31]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.41.34:945][804]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.41.34:945][804]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.41.34:945][804]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.34:945][804]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.41.35:340][821]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.25-19.41.35:340][821]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.41.35:340][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.35:340][821]MaterialEditorStats: Shader Count: 1
+[2024.10.25-19.41.35:657][835]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.41.35:658][835]MaterialEditorStats: Texture samplers: 4/16
+[2024.10.25-19.41.35:658][835]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.41.35:658][835]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.35:658][835]MaterialEditorStats: Shader Count: 3
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: Base pass shader: 214 instructions
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: Texture samplers: 7/16
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.41.35:759][840]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.42.19:533][909]LogMaterial: Warning: [AssetLog] /Engine/Transient.Crystal_MAT: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Cannot cast from larger type float3 to smaller type float2.
+
+[2024.10.25-19.42.19:554][909]MaterialEditorStats: Error: [SM6] (Node TextureSample) Cannot cast from larger type float3 to smaller type float2.
+[2024.10.25-19.42.27:019][280]LogMaterialEditor: Applying material Crystal_MAT
+[2024.10.25-19.42.33:436][280]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2024.10.25-19.42.33:457][281]LogAutomationController: Ignoring very large delta of 6.44 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.25-19.42.37:838][489]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-19.42.37:839][489]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.42.37:839][489]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.42.37:839][489]MaterialEditorStats: Shader Count: 0
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: Base pass shader: 214 instructions
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: Texture samplers: 7/16
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-19.42.37:926][491]MaterialEditorStats: Shader Count: 4
+[2024.10.25-19.42.40:330][610]LogMaterialEditor: Applying material Crystal_MAT
+[2024.10.25-19.42.40:510][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.25-19.42.41:561][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.25-19.43.01:890][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-19.43.02:223][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.25-19.43.02:237][ 46]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.25-19.43.02:239][ 46]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne478356344ADE50ABD852E197421D4EB6.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.25-19.43.02:249][ 46]LogFileHelpers: Saving map 'LevelOne' took 0.054
+[2024.10.25-19.43.02:263][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 373 ms (total: 2.28 sec)
+[2024.10.25-19.43.02:266][ 46]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.25-19.43.02:266][ 46]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.25-19.43.03:576][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-19.43.03:816][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.25-19.43.03:829][ 64]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.25-19.43.03:830][ 64]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne394E678F4A8C0DEF20BF449DD7ADA606.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.25-19.43.03:839][ 64]LogFileHelpers: Saving map 'LevelOne' took 0.055
+[2024.10.25-19.43.03:855][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 278 ms (total: 2.56 sec)
+[2024.10.25-19.43.03:856][ 64]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.25-19.43.03:857][ 64]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.25-19.43.04:980][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-19.43.05:215][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.10.25-19.43.05:227][ 80]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.25-19.43.05:228][ 80]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneF71A80344017A4D51B265DBE415F417B.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.25-19.43.05:237][ 80]LogFileHelpers: Saving map 'LevelOne' took 0.052
+[2024.10.25-19.43.05:250][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 270 ms (total: 2.83 sec)
+[2024.10.25-19.43.05:253][ 80]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.25-19.43.05:253][ 80]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.25-19.43.09:141][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-19.43.09:286][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.25-19.43.09:299][127]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.25-19.43.09:301][127]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne09CA8F894255309CED55DD9FA3C7EEAB.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.25-19.43.09:309][127]LogFileHelpers: Saving map 'LevelOne' took 0.053
+[2024.10.25-19.43.09:326][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 3.02 sec)
+[2024.10.25-19.43.09:329][127]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.25-19.43.09:329][127]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
