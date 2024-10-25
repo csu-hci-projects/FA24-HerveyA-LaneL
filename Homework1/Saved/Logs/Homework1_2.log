@@ -1155,3 +1155,4 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.10.25-18.38.17:699][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
 [2024.10.25-18.38.17:741][240]LogFileHelpers: InternalPromptForCheckoutAndSave took 360 ms
 [2024.10.25-18.39.15:232][434]LogDerivedDataCache: C:/Users/aherv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.383 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 774 files in 1425 folders with total size 34 MiB.
+[2024.10.25-18.39.56:908][556]LogAutomationController: Ignoring very large delta of 2.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
