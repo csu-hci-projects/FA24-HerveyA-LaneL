@@ -5805,3 +5805,47 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.10.25-21.50.02:865][407]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/MyAssets/stylized-crystal-cluster/textures/Crystal_MAT_Emissive.Crystal_MAT_Emissive
 [2024.10.25-21.50.02:865][407]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WB_Main.WB_Main
 [2024.10.25-21.50.02:893][408]LogAutomationController: Ignoring very large delta of 12.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.25-22.22.09:526][986]LogSlate: Window 'New Level' being destroyed
+[2024.10.25-22.22.09:557][986]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-22.22.09:569][986]LightingResults: New page: Lighting Build
+[2024.10.25-22.22.10:151][986]LoadErrors: New page: Loading map: Template_Default.umap
+[2024.10.25-22.22.10:311][986]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-22.22.10:339][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-22.22.10:376][986]MapCheck: New page: Map Check
+[2024.10.25-22.22.10:376][986]LightingResults: New page: Lighting Build
+[2024.10.25-22.22.10:566][986]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-22.22.10:701][986]LogUObjectHash: Compacting FUObjectHashTables data took   9.48ms
+[2024.10.25-22.22.10:821][986]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2024.10.25-22.22.10:830][986]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-22.22.10:840][986]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-22.22.10:860][986]LogAIModule: Creating AISystem for world Untitled_2
+[2024.10.25-22.22.11:430][986]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-22.22.11:489][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.10.25-22.22.11:492][986]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-22.22.11:494][986]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.801ms to complete.
+[2024.10.25-22.22.11:667][987]LogAutomationController: Ignoring very large delta of 5.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.25-22.22.26:519][148]LogSlate: Window 'Save Level As' being destroyed
+[2024.10.25-22.22.26:705][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.10.25-22.22.26:739][148]LogSavePackage: Moving output files for package: /Game/LevelTwo
+[2024.10.25-22.22.26:739][148]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelTwoE34A3F90420EE51F88D2CC8D4FAF24FD.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelTwo.umap'
+[2024.10.25-22.22.26:780][148]LogFileHelpers: Saving map 'LevelTwo' took 0.230
+[2024.10.25-22.22.26:780][148]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-22.22.26:780][148]LightingResults: New page: Lighting Build
+[2024.10.25-22.22.26:780][148]LoadErrors: New page: Loading map: LevelTwo.umap
+[2024.10.25-22.22.26:806][148]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-22.22.26:807][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-22.22.26:807][148]MapCheck: New page: Map Check
+[2024.10.25-22.22.26:807][148]LightingResults: New page: Lighting Build
+[2024.10.25-22.22.26:830][148]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-22.22.26:834][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.10.25-22.22.26:840][148]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelTwo'.
+[2024.10.25-22.22.26:840][148]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-22.22.26:840][148]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-22.22.26:841][148]LogAIModule: Creating AISystem for world LevelTwo
+[2024.10.25-22.22.26:952][148]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-22.22.26:976][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.10.25-22.22.26:981][148]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-22.22.26:981][148]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.204ms to complete.
+[2024.10.25-22.22.26:987][148]AssetCheck: New page: Asset Save: LevelTwo
+[2024.10.25-22.22.26:988][148]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelTwo.LevelTwo
+[2024.10.25-22.22.27:008][149]LogAutomationController: Ignoring very large delta of 5.96 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
