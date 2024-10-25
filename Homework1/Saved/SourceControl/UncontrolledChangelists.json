@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/63/MG6FOV6QQX2CAZCGF7O9MM.uasset"
+			]
+		}
+	]
+}
