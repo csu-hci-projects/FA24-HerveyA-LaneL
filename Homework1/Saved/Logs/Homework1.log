@@ -1783,3 +1783,1105 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.30-20.07.38:599][720]AssetCheck: New page: Asset Save: LevelOne
 [2024.10.30-20.07.38:599][720]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
 [2024.10.30-20.08.00:571][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.10.30-20.10.46:645][451]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4300.339844
+[2024.10.30-20.10.47:645][454]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.10.47:645][454]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4301.006836, Update Interval: 355.392914
+[2024.10.30-20.13.57:220][505]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.30-20.13.57:316][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.10.30-20.13.59:745][543]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-20.13.59:767][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-20.13.59:767][543]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 8:13:59 AM)
+[2024.10.30-20.13.59:767][543]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.13.59:796][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027899s)
+[2024.10.30-20.13.59:796][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.027992s)
+[2024.10.30-20.13.59:828][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.10.30-20.13.59:828][543]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-20.13.59:828][543]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-20.13.59:829][543]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-20.13.59:829][543]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2024.10.30-20.13.59:829][543]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.10.30-20.13.59:829][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-20.13.59:829][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-20.13.59:829][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-20.13.59:829][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-20.13.59:830][543]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-20.13.59:830][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-20.13.59:830][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-20.13.59:830][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-20.13.59:830][543]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-20.13.59:830][543]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-20.13.59:830][543]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-20.13.59:833][543]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-20.13.59:889][543]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-20.13.59:890][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-20.13.59:890][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-20.13.59:890][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-20.13.59:891][543]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.10.30-20.13.59:891][543]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.10.30-20.13.59:896][543]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.10.30-20.13.59:896][543]LogInit: FAudioDevice initialized with ID 7.
+[2024.10.30-20.13.59:896][543]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.10.30-20.13.59:897][543]LogAudio: Display: Audio Device (ID: 7) registered with world 'LevelOne'.
+[2024.10.30-20.13.59:897][543]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.30-20.13.59:997][543]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-20.14.00:007][543]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2024.10.30-14.14.00
+[2024.10.30-20.14.00:007][543]LogWorld: Bringing up level for play took: 0.009080
+[2024.10.30-20.14.00:012][543]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.10.30-20.14.00:017][543]PIE: Server logged in
+[2024.10.30-20.14.00:018][543]PIE: Play in editor total start time 0.251 seconds.
+[2024.10.30-20.14.11:142][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.14.11:142][655]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.14.11:144][655]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-20.14.11:146][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.14.11:293][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-20.14.11:304][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.14.11:344][655]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-20.14.11:344][655]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.10.30-20.14.11:344][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.30-20.14.11:349][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.10.30-20.14.11:372][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.14.11:383][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.10.30-20.14.11:489][656]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.10.30-20.17.22:038][121]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4695.724609
+[2024.10.30-20.17.22:458][124]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.17.22:458][124]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4696.003418, Update Interval: 300.468750
+[2024.10.30-20.17.50:496][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.10.30-20.17.50:498][290]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelOne' took 0.020
+[2024.10.30-20.17.50:500][290]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2024.10.30-20.17.50:777][290]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2024.10.30-20.17.50:777][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2024.10.30-20.17.50:837][290]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1
+[2024.10.30-20.17.50:837][290]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/BP_FirstPersonCharacter_Auto1B599E738494FB87E8C92BDBD32349451.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset'
+[2024.10.30-20.17.50:840][290]LogFileHelpers: Auto-saving content packages took 0.342
+[2024.10.30-20.18.12:503][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-20.18.12:527][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-20.18.12:527][567]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 8:18:12 AM)
+[2024.10.30-20.18.12:527][567]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.18.12:554][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026836s)
+[2024.10.30-20.18.12:554][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.026924s)
+[2024.10.30-20.18.12:570][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.10.30-20.18.12:571][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-20.18.12:571][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-20.18.12:572][567]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-20.18.12:572][567]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2024.10.30-20.18.12:572][567]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-20.18.12:573][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-20.18.12:573][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-20.18.12:573][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-20.18.12:573][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-20.18.12:573][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-20.18.12:576][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-20.18.12:617][567]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-20.18.12:618][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-20.18.12:618][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-20.18.12:618][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-20.18.12:619][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.10.30-20.18.12:619][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.10.30-20.18.12:624][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.10.30-20.18.12:624][567]LogInit: FAudioDevice initialized with ID 8.
+[2024.10.30-20.18.12:624][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.10.30-20.18.12:624][567]LogAudio: Display: Audio Device (ID: 8) registered with world 'LevelOne'.
+[2024.10.30-20.18.12:624][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.30-20.18.12:631][567]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-20.18.12:648][567]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2024.10.30-14.18.12
+[2024.10.30-20.18.12:649][567]LogWorld: Bringing up level for play took: 0.017093
+[2024.10.30-20.18.12:652][567]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.10.30-20.18.12:656][567]PIE: Server logged in
+[2024.10.30-20.18.12:657][567]PIE: Play in editor total start time 0.131 seconds.
+[2024.10.30-20.18.56:110][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.18.56:110][106]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.18.56:111][106]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-20.18.56:113][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.18.56:200][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-20.18.56:211][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.18.56:258][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.18.56:260][106]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.10.30-20.18.56:261][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.30-20.18.56:265][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.10.30-20.18.56:288][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2024.10.30-20.18.56:390][107]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.10.30-20.20.24:534][381]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-20.20.24:549][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-20.20.24:549][381]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 8:20:24 AM)
+[2024.10.30-20.20.24:549][381]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.20.24:566][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017472s)
+[2024.10.30-20.20.24:567][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.017566s)
+[2024.10.30-20.20.24:589][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.10.30-20.20.24:592][381]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-20.20.24:592][381]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-20.20.24:592][381]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-20.20.24:593][381]LogPlayLevel: PIE: World Init took: (0.002207s)
+[2024.10.30-20.20.24:594][381]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-20.20.24:594][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-20.20.24:594][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-20.20.24:595][381]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-20.20.24:595][381]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-20.20.24:595][381]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-20.20.24:599][381]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-20.20.24:648][381]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-20.20.24:649][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-20.20.24:649][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-20.20.24:650][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-20.20.24:653][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.10.30-20.20.24:654][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.10.30-20.20.24:659][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.10.30-20.20.24:659][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.10.30-20.20.24:659][381]LogInit: FAudioDevice initialized with ID 9.
+[2024.10.30-20.20.24:659][381]LogAudio: Display: Audio Device (ID: 9) registered with world 'LevelOne'.
+[2024.10.30-20.20.24:659][381]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.30-20.20.24:963][381]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-20.20.24:976][381]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2024.10.30-14.20.24
+[2024.10.30-20.20.24:976][381]LogWorld: Bringing up level for play took: 0.011878
+[2024.10.30-20.20.24:981][381]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.10.30-20.20.24:986][381]PIE: Server logged in
+[2024.10.30-20.20.24:987][381]PIE: Play in editor total start time 0.438 seconds.
+[2024.10.30-20.21.12:384][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.21.12:384][897]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.21.12:385][897]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-20.21.12:387][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.21.12:501][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-20.21.12:515][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.21.12:544][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.21.12:546][897]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.10.30-20.21.12:547][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.30-20.21.12:550][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.10.30-20.21.12:575][897]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2024.10.30-20.21.12:713][898]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.10.30-20.23.07:197][177]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5040.883301
+[2024.10.30-20.23.08:200][180]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.23.08:200][180]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5041.549316, Update Interval: 331.132538
+[2024.10.30-20.29.16:262][284]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5409.958496
+[2024.10.30-20.29.17:262][287]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.29.17:262][287]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5410.625000, Update Interval: 352.679230
+[2024.10.30-20.34.23:221][281]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-20.34.23:240][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-20.34.23:240][281]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 8:34:23 AM)
+[2024.10.30-20.34.23:241][281]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.34.23:260][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018415s)
+[2024.10.30-20.34.23:260][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.018520s)
+[2024.10.30-20.34.23:292][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.10.30-20.34.23:295][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-20.34.23:295][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-20.34.23:295][281]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-20.34.23:296][281]LogPlayLevel: PIE: World Init took: (0.001720s)
+[2024.10.30-20.34.23:296][281]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-20.34.23:296][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-20.34.23:296][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-20.34.23:297][281]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-20.34.23:297][281]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-20.34.23:297][281]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-20.34.23:300][281]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-20.34.23:346][281]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-20.34.23:346][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-20.34.23:346][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-20.34.23:346][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-20.34.23:347][281]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.10.30-20.34.23:347][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.10.30-20.34.23:352][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.10.30-20.34.23:352][281]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.10.30-20.34.23:352][281]LogInit: FAudioDevice initialized with ID 10.
+[2024.10.30-20.34.23:352][281]LogAudio: Display: Audio Device (ID: 10) registered with world 'LevelOne'.
+[2024.10.30-20.34.23:352][281]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.30-20.34.23:416][281]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-20.34.23:431][281]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2024.10.30-14.34.23
+[2024.10.30-20.34.23:431][281]LogWorld: Bringing up level for play took: 0.015184
+[2024.10.30-20.34.23:437][281]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.10.30-20.34.23:445][281]PIE: Server logged in
+[2024.10.30-20.34.23:446][281]PIE: Play in editor total start time 0.206 seconds.
+[2024.10.30-20.35.35:719][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.35.35:720][220]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.35.35:720][220]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-20.35.35:722][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.35.35:813][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-20.35.35:822][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.35.35:856][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.35.35:857][220]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.10.30-20.35.35:859][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.30-20.35.35:862][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.10.30-20.35.35:892][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2024.10.30-20.35.36:029][221]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.10.30-20.35.52:060][411]Cmd: EDIT COPY
+[2024.10.30-20.35.52:559][415]Cmd: EDIT PASTE
+[2024.10.30-20.36.05:085][580]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5818.794434
+[2024.10.30-20.36.05:376][584]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.36.05:377][584]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5819.018066, Update Interval: 349.410675
+[2024.10.30-20.36.30:407][908]Cmd: EDIT COPY
+[2024.10.30-20.36.30:707][914]Cmd: EDIT PASTE
+[2024.10.30-20.37.04:521][368]Cmd: EDIT COPY
+[2024.10.30-20.37.04:733][371]Cmd: EDIT PASTE
+[2024.10.30-20.37.26:769][655]Cmd: EDIT COPY
+[2024.10.30-20.37.26:980][660]Cmd: EDIT PASTE
+[2024.10.30-20.37.43:470][863]Cmd: EDIT COPY
+[2024.10.30-20.37.43:702][866]Cmd: EDIT PASTE
+[2024.10.30-20.37.43:702][866]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-20.37.48:732][929]Cmd: TRANSACTION UNDO
+[2024.10.30-20.37.48:732][929]LogEditorTransaction: Undo Move Elements
+[2024.10.30-20.37.50:113][944]Cmd: EDIT COPY
+[2024.10.30-20.37.50:502][947]Cmd: EDIT PASTE
+[2024.10.30-20.38.29:452][418]Cmd: EDIT COPY
+[2024.10.30-20.38.29:697][421]Cmd: EDIT PASTE
+[2024.10.30-20.39.06:079][824]Cmd: EDIT COPY
+[2024.10.30-20.39.06:219][828]Cmd: EDIT PASTE
+[2024.10.30-20.39.22:081][ 16]Cmd: EDIT COPY
+[2024.10.30-20.39.22:323][ 19]Cmd: EDIT PASTE
+[2024.10.30-20.39.56:087][419]Cmd: EDIT COPY
+[2024.10.30-20.39.56:552][425]Cmd: EDIT PASTE
+[2024.10.30-20.40.31:829][804]Cmd: EDIT COPY
+[2024.10.30-20.40.32:075][807]Cmd: EDIT PASTE
+[2024.10.30-20.40.43:818][935]Cmd: EDIT COPY
+[2024.10.30-20.40.44:066][938]Cmd: EDIT PASTE
+[2024.10.30-20.40.52:221][ 29]Cmd: TRANSACTION UNDO
+[2024.10.30-20.40.52:222][ 29]LogEditorTransaction: Undo Rotate Elements
+[2024.10.30-20.41.02:430][147]Cmd: EDIT COPY
+[2024.10.30-20.41.02:669][150]Cmd: EDIT PASTE
+[2024.10.30-20.41.24:580][408]Cmd: EDIT COPY
+[2024.10.30-20.41.24:843][411]Cmd: EDIT PASTE
+[2024.10.30-20.42.01:707][840]Cmd: EDIT COPY
+[2024.10.30-20.42.01:975][843]Cmd: EDIT PASTE
+[2024.10.30-20.42.13:782][974]Cmd: EDIT COPY
+[2024.10.30-20.42.14:101][978]Cmd: EDIT PASTE
+[2024.10.30-20.42.39:946][280]Cmd: EDIT COPY
+[2024.10.30-20.42.40:192][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6213.907227
+[2024.10.30-20.42.40:194][283]Cmd: EDIT PASTE
+[2024.10.30-20.42.40:891][289]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.42.40:891][289]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6214.300781, Update Interval: 351.086151
+[2024.10.30-20.43.52:268][125]Cmd: EDIT COPY
+[2024.10.30-20.43.52:585][129]Cmd: EDIT PASTE
+[2024.10.30-20.44.18:570][445]Cmd: EDIT COPY
+[2024.10.30-20.44.18:730][447]Cmd: EDIT PASTE
+[2024.10.30-20.44.32:137][606]Cmd: EDIT COPY
+[2024.10.30-20.44.32:686][610]Cmd: EDIT PASTE
+[2024.10.30-20.44.49:880][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-20.44.50:144][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.10.30-20.44.50:193][820]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-20.44.50:196][820]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneEACAA158444CA09D47565D80DC31CBD6.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-20.44.50:206][820]LogFileHelpers: Saving map 'LevelOne' took 0.107
+[2024.10.30-20.44.50:219][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 2.24 sec)
+[2024.10.30-20.44.50:222][820]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-20.44.50:222][820]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-20.44.52:954][854]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-20.44.52:979][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-20.44.52:979][854]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 8:44:52 AM)
+[2024.10.30-20.44.52:980][854]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.44.53:034][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054414s)
+[2024.10.30-20.44.53:036][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.054584s)
+[2024.10.30-20.44.53:071][854]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2024.10.30-20.44.53:074][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-20.44.53:074][854]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-20.44.53:075][854]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-20.44.53:076][854]LogPlayLevel: PIE: World Init took: (0.003040s)
+[2024.10.30-20.44.53:077][854]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-20.44.53:077][854]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-20.44.53:077][854]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-20.44.53:078][854]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-20.44.53:078][854]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-20.44.53:078][854]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-20.44.53:083][854]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-20.44.53:141][854]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-20.44.53:141][854]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-20.44.53:141][854]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-20.44.53:141][854]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-20.44.53:144][854]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.10.30-20.44.53:144][854]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.10.30-20.44.53:147][854]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.10.30-20.44.53:147][854]LogInit: FAudioDevice initialized with ID 11.
+[2024.10.30-20.44.53:147][854]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.10.30-20.44.53:147][854]LogAudio: Display: Audio Device (ID: 11) registered with world 'LevelOne'.
+[2024.10.30-20.44.53:147][854]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.30-20.44.53:151][854]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-20.44.53:163][854]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 0) at 2024.10.30-14.44.53
+[2024.10.30-20.44.53:163][854]LogWorld: Bringing up level for play took: 0.011147
+[2024.10.30-20.44.53:166][854]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.10.30-20.44.53:169][854]PIE: Server logged in
+[2024.10.30-20.44.53:170][854]PIE: Play in editor total start time 0.192 seconds.
+[2024.10.30-20.45.19:355][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.45.19:355][142]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-20.45.19:356][142]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-20.45.19:358][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.45.19:499][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-20.45.19:512][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-20.45.19:552][142]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-20.45.19:552][142]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.10.30-20.45.19:552][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.30-20.45.19:557][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.10.30-20.45.19:572][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-20.45.19:583][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2024.10.30-20.45.19:729][143]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.10.30-20.45.39:908][382]Cmd: EDIT COPY
+[2024.10.30-20.45.40:138][385]Cmd: EDIT PASTE
+[2024.10.30-20.46.09:821][740]Cmd: EDIT COPY
+[2024.10.30-20.46.09:983][742]Cmd: EDIT PASTE
+[2024.10.30-20.46.12:851][773]Cmd: TRANSACTION UNDO
+[2024.10.30-20.46.12:851][773]LogEditorTransaction: Undo Move Elements
+[2024.10.30-20.46.58:987][328]Cmd: EDIT COPY
+[2024.10.30-20.46.59:146][330]Cmd: EDIT PASTE
+[2024.10.30-20.47.41:794][849]Cmd: EDIT COPY
+[2024.10.30-20.47.41:953][851]Cmd: EDIT PASTE
+[2024.10.30-20.48.13:932][238]Cmd: EDIT COPY
+[2024.10.30-20.48.14:306][240]Cmd: EDIT PASTE
+[2024.10.30-20.48.31:752][450]Cmd: EDIT COPY
+[2024.10.30-20.48.31:996][453]Cmd: EDIT PASTE
+[2024.10.30-20.48.55:388][724]Cmd: EDIT COPY
+[2024.10.30-20.48.55:690][725]Cmd: EDIT PASTE
+[2024.10.30-20.49.12:939][933]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6606.646484
+[2024.10.30-20.49.13:188][936]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.49.13:188][936]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6606.815918, Update Interval: 302.719208
+[2024.10.30-20.49.13:419][936]Cmd: EDIT COPY
+[2024.10.30-20.49.13:567][941]Cmd: EDIT PASTE
+[2024.10.30-20.49.42:920][293]Cmd: EDIT COPY
+[2024.10.30-20.49.43:330][298]Cmd: EDIT PASTE
+[2024.10.30-20.50.03:225][541]Cmd: EDIT COPY
+[2024.10.30-20.50.03:459][544]Cmd: EDIT PASTE
+[2024.10.30-20.50.21:654][756]Cmd: EDIT COPY
+[2024.10.30-20.50.21:939][762]Cmd: EDIT PASTE
+[2024.10.30-20.50.45:792][ 32]Cmd: EDIT COPY
+[2024.10.30-20.50.46:165][ 34]Cmd: EDIT PASTE
+[2024.10.30-20.50.57:030][167]Cmd: TRANSACTION UNDO
+[2024.10.30-20.50.57:030][167]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.30-20.51.04:390][255]Cmd: EDIT COPY
+[2024.10.30-20.51.04:546][257]Cmd: EDIT PASTE
+[2024.10.30-20.51.19:959][439]Cmd: EDIT COPY
+[2024.10.30-20.51.20:116][441]Cmd: EDIT PASTE
+[2024.10.30-20.51.30:632][568]Cmd: EDIT COPY
+[2024.10.30-20.51.31:009][570]Cmd: EDIT PASTE
+[2024.10.30-20.51.50:309][802]Cmd: EDIT COPY
+[2024.10.30-20.51.50:610][806]Cmd: EDIT PASTE
+[2024.10.30-20.52.11:167][ 60]Cmd: EDIT COPY
+[2024.10.30-20.52.11:622][ 66]Cmd: EDIT PASTE
+[2024.10.30-20.52.34:334][347]Cmd: EDIT COPY
+[2024.10.30-20.52.34:645][348]Cmd: EDIT PASTE
+[2024.10.30-20.52.45:971][487]Cmd: EDIT COPY
+[2024.10.30-20.52.46:232][493]Cmd: EDIT PASTE
+[2024.10.30-20.53.05:632][733]Cmd: EDIT COPY
+[2024.10.30-20.53.05:797][735]Cmd: EDIT PASTE
+[2024.10.30-20.53.22:521][933]Cmd: EDIT COPY
+[2024.10.30-20.53.22:874][934]Cmd: EDIT PASTE
+[2024.10.30-20.53.35:785][ 91]Cmd: EDIT COPY
+[2024.10.30-20.53.36:084][ 92]Cmd: EDIT PASTE
+[2024.10.30-20.53.49:231][251]Cmd: EDIT COPY
+[2024.10.30-20.53.49:466][254]Cmd: EDIT PASTE
+[2024.10.30-20.54.15:762][571]Cmd: EDIT COPY
+[2024.10.30-20.54.16:013][574]Cmd: EDIT PASTE
+[2024.10.30-20.54.39:179][854]Cmd: EDIT COPY
+[2024.10.30-20.54.39:491][860]Cmd: EDIT PASTE
+[2024.10.30-20.55.00:616][121]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6954.346680
+[2024.10.30-20.55.00:856][124]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-20.55.00:856][124]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6954.507812, Update Interval: 342.659393
+[2024.10.30-20.55.14:022][280]Cmd: EDIT COPY
+[2024.10.30-20.55.14:311][286]Cmd: EDIT PASTE
+[2024.10.30-20.55.43:844][631]Cmd: EDIT COPY
+[2024.10.30-20.55.44:039][636]Cmd: EDIT PASTE
+[2024.10.30-20.55.51:672][726]Cmd: EDIT COPY
+[2024.10.30-20.55.51:987][727]Cmd: EDIT PASTE
+[2024.10.30-20.56.28:413][150]Cmd: EDIT COPY
+[2024.10.30-20.56.28:817][155]Cmd: EDIT PASTE
+[2024.10.30-20.56.53:688][445]Cmd: EDIT COPY
+[2024.10.30-20.56.53:925][448]Cmd: EDIT PASTE
+[2024.10.30-20.57.09:003][630]Cmd: EDIT COPY
+[2024.10.30-20.57.09:467][633]Cmd: EDIT PASTE
+[2024.10.30-20.57.29:014][865]Cmd: EDIT COPY
+[2024.10.30-20.57.29:165][867]Cmd: EDIT PASTE
+[2024.10.30-20.57.40:683][999]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: fe7...a1f
+[2024.10.30-20.57.40:683][999]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.98 RefreshExpires: 1.553e+07
+[2024.10.30-20.57.41:239][  5]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: fe7...a1f Access[Expires: 2024.10.30-22.57.44 Remaining: 7200.21] Refresh[Expires: 2025-04-28T16:03:32.951Z Remaining: 15534348.95] State: Valid
+[2024.10.30-20.57.49:931][ 99]Cmd: EDIT COPY
+[2024.10.30-20.57.50:172][102]Cmd: EDIT PASTE
+[2024.10.30-20.58.24:499][513]Cmd: EDIT COPY
+[2024.10.30-20.58.24:727][516]Cmd: EDIT PASTE
+[2024.10.30-20.58.55:245][875]Cmd: EDIT COPY
+[2024.10.30-20.58.55:402][877]Cmd: EDIT PASTE
+[2024.10.30-20.59.05:153][988]Cmd: EDIT COPY
+[2024.10.30-20.59.05:402][991]Cmd: EDIT PASTE
+[2024.10.30-20.59.17:938][124]Cmd: EDIT COPY
+[2024.10.30-20.59.18:309][128]Cmd: EDIT PASTE
+[2024.10.30-20.59.35:372][323]Cmd: EDIT COPY
+[2024.10.30-20.59.35:693][327]Cmd: EDIT PASTE
+[2024.10.30-20.59.46:586][460]Cmd: EDIT COPY
+[2024.10.30-20.59.46:820][463]Cmd: EDIT PASTE
+[2024.10.30-21.00.13:887][786]Cmd: EDIT COPY
+[2024.10.30-21.00.14:117][789]Cmd: EDIT PASTE
+[2024.10.30-21.00.49:796][225]Cmd: EDIT COPY
+[2024.10.30-21.00.50:119][229]Cmd: EDIT PASTE
+[2024.10.30-21.01.07:361][439]Cmd: EDIT COPY
+[2024.10.30-21.01.07:613][442]Cmd: EDIT PASTE
+[2024.10.30-21.01.22:431][621]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7336.148926
+[2024.10.30-21.01.22:604][626]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.01.22:604][626]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7336.246582, Update Interval: 311.686157
+[2024.10.30-21.01.27:040][682]LogDerivedDataCache: C:/Users/aherv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.721 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5419 files in 7247 folders with total size 270 MiB.
+[2024.10.30-21.01.42:455][867]Cmd: EDIT COPY
+[2024.10.30-21.01.42:690][870]Cmd: EDIT PASTE
+[2024.10.30-21.02.02:973][118]Cmd: EDIT COPY
+[2024.10.30-21.02.03:207][121]Cmd: EDIT PASTE
+[2024.10.30-21.02.14:272][257]Cmd: EDIT COPY
+[2024.10.30-21.02.14:832][264]Cmd: EDIT PASTE
+[2024.10.30-21.02.24:296][381]Cmd: EDIT COPY
+[2024.10.30-21.02.24:766][387]Cmd: EDIT PASTE
+[2024.10.30-21.02.32:976][487]Cmd: EDIT COPY
+[2024.10.30-21.02.33:219][490]Cmd: EDIT PASTE
+[2024.10.30-21.02.58:371][800]Cmd: EDIT COPY
+[2024.10.30-21.02.58:674][804]Cmd: EDIT PASTE
+[2024.10.30-21.03.14:895][999]Cmd: EDIT COPY
+[2024.10.30-21.03.15:247][  3]Cmd: EDIT PASTE
+[2024.10.30-21.03.24:078][103]Cmd: EDIT COPY
+[2024.10.30-21.03.24:217][106]Cmd: EDIT PASTE
+[2024.10.30-21.03.35:197][243]Cmd: EDIT COPY
+[2024.10.30-21.03.35:510][244]Cmd: EDIT PASTE
+[2024.10.30-21.04.09:774][661]Cmd: EDIT COPY
+[2024.10.30-21.04.10:021][664]Cmd: EDIT PASTE
+[2024.10.30-21.04.34:002][946]Cmd: EDIT COPY
+[2024.10.30-21.04.34:168][948]Cmd: EDIT PASTE
+[2024.10.30-21.04.42:149][ 41]Cmd: EDIT COPY
+[2024.10.30-21.04.42:399][ 44]Cmd: EDIT PASTE
+[2024.10.30-21.04.55:596][194]Cmd: EDIT COPY
+[2024.10.30-21.04.55:803][199]Cmd: EDIT PASTE
+[2024.10.30-21.05.15:272][425]Cmd: EDIT COPY
+[2024.10.30-21.05.15:514][428]Cmd: EDIT PASTE
+[2024.10.30-21.05.46:698][804]Cmd: EDIT COPY
+[2024.10.30-21.05.46:848][806]Cmd: EDIT PASTE
+[2024.10.30-21.06.15:258][156]Cmd: EDIT COPY
+[2024.10.30-21.06.15:569][160]Cmd: EDIT PASTE
+[2024.10.30-21.06.22:276][240]Cmd: TRANSACTION UNDO
+[2024.10.30-21.06.22:276][240]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.06.38:360][435]Cmd: EDIT COPY
+[2024.10.30-21.06.38:575][438]Cmd: EDIT PASTE
+[2024.10.30-21.06.49:212][567]Cmd: EDIT COPY
+[2024.10.30-21.06.49:453][570]Cmd: EDIT PASTE
+[2024.10.30-21.07.20:821][951]Cmd: EDIT COPY
+[2024.10.30-21.07.21:067][954]Cmd: EDIT PASTE
+[2024.10.30-21.07.23:880][984]Cmd: TRANSACTION UNDO
+[2024.10.30-21.07.23:880][984]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.07.29:512][ 47]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7703.243164
+[2024.10.30-21.07.29:765][ 50]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.07.29:765][ 50]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7703.405762, Update Interval: 308.880890
+[2024.10.30-21.07.45:135][232]Cmd: EDIT COPY
+[2024.10.30-21.07.45:382][235]Cmd: EDIT PASTE
+[2024.10.30-21.08.21:571][654]Cmd: EDIT COPY
+[2024.10.30-21.08.21:815][657]Cmd: EDIT PASTE
+[2024.10.30-21.08.41:585][895]Cmd: EDIT COPY
+[2024.10.30-21.08.41:818][898]Cmd: EDIT PASTE
+[2024.10.30-21.08.57:313][ 87]Cmd: EDIT COPY
+[2024.10.30-21.08.57:708][ 89]Cmd: EDIT PASTE
+[2024.10.30-21.09.17:872][339]Cmd: EDIT COPY
+[2024.10.30-21.09.18:194][340]Cmd: EDIT PASTE
+[2024.10.30-21.09.51:271][737]Cmd: EDIT COPY
+[2024.10.30-21.09.51:501][740]Cmd: EDIT PASTE
+[2024.10.30-21.10.00:819][851]Cmd: EDIT COPY
+[2024.10.30-21.10.01:144][852]Cmd: EDIT PASTE
+[2024.10.30-21.10.09:707][955]Cmd: EDIT COPY
+[2024.10.30-21.10.10:016][959]Cmd: EDIT PASTE
+[2024.10.30-21.10.24:905][136]Cmd: EDIT COPY
+[2024.10.30-21.10.25:068][138]Cmd: EDIT PASTE
+[2024.10.30-21.10.36:110][262]Cmd: EDIT COPY
+[2024.10.30-21.10.36:345][265]Cmd: EDIT PASTE
+[2024.10.30-21.10.52:948][463]Cmd: EDIT COPY
+[2024.10.30-21.10.52:948][463]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.10.53:182][466]Cmd: EDIT PASTE
+[2024.10.30-21.11.04:740][607]Cmd: EDIT COPY
+[2024.10.30-21.11.04:979][610]Cmd: EDIT PASTE
+[2024.10.30-21.11.28:543][889]Cmd: EDIT COPY
+[2024.10.30-21.11.28:791][892]Cmd: EDIT PASTE
+[2024.10.30-21.11.47:282][107]Cmd: EDIT COPY
+[2024.10.30-21.11.47:531][110]Cmd: EDIT PASTE
+[2024.10.30-21.12.15:303][445]Cmd: EDIT COPY
+[2024.10.30-21.12.15:613][449]Cmd: EDIT PASTE
+[2024.10.30-21.12.22:464][530]Cmd: TRANSACTION UNDO
+[2024.10.30-21.12.22:464][530]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.12.53:831][903]Cmd: EDIT COPY
+[2024.10.30-21.12.54:137][907]Cmd: EDIT PASTE
+[2024.10.30-21.13.03:964][ 27]Cmd: EDIT COPY
+[2024.10.30-21.13.04:204][ 30]Cmd: EDIT PASTE
+[2024.10.30-21.13.18:543][201]Cmd: TRANSACTION UNDO
+[2024.10.30-21.13.18:543][201]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.13.26:243][294]Cmd: EDIT COPY
+[2024.10.30-21.13.26:459][297]Cmd: EDIT PASTE
+[2024.10.30-21.13.27:512][310]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8061.252441
+[2024.10.30-21.13.27:816][314]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.13.27:817][314]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8061.475586, Update Interval: 333.496521
+[2024.10.30-21.13.57:161][676]Cmd: EDIT COPY
+[2024.10.30-21.13.57:386][679]Cmd: EDIT PASTE
+[2024.10.30-21.14.35:429][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.10.30-21.14.35:516][162]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelOne_Auto2
+[2024.10.30-21.14.35:530][162]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne_Auto2A212F3C14A0A0A4B7B8638AB30C4D6DF.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/Autosaves/Game/LevelOne_Auto2.umap'
+[2024.10.30-21.14.35:533][162]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/Autosaves/Game/LevelOne_Auto2.umap is in the /Temp path, will not scan.
+[2024.10.30-21.14.35:535][162]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelOne' took 0.124
+[2024.10.30-21.14.35:535][162]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.124
+[2024.10.30-21.14.35:536][162]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2024.10.30-21.14.35:536][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2024.10.30-21.14.35:568][162]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2
+[2024.10.30-21.14.35:568][162]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/BP_FirstPersonCharacter_Auto23921D7A241CC4D615D6280B7B206E620.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto2.uasset'
+[2024.10.30-21.14.35:570][162]LogFileHelpers: Auto-saving content packages took 0.036
+[2024.10.30-21.14.44:570][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-21.14.44:836][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.30-21.14.44:922][270]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-21.14.44:924][270]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneC598E07E47ACA37AA71513B362BF1BFC.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-21.14.44:937][270]LogFileHelpers: Saving map 'LevelOne' took 0.148
+[2024.10.30-21.14.44:952][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 381 ms (total: 2.62 sec)
+[2024.10.30-21.14.44:956][270]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-21.14.44:956][270]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-21.15.04:384][497]Cmd: EDIT COPY
+[2024.10.30-21.15.04:549][499]Cmd: EDIT PASTE
+[2024.10.30-21.15.25:151][745]Cmd: EDIT COPY
+[2024.10.30-21.15.25:398][748]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.15.35:807][865]Cmd: EDIT COPY
+[2024.10.30-21.15.35:817][865]Cmd: EDIT PASTE
+[2024.10.30-21.16.00:768][160]Cmd: EDIT COPY
+[2024.10.30-21.16.01:089][165]Cmd: EDIT PASTE
+[2024.10.30-21.16.16:182][340]Cmd: EDIT COPY
+[2024.10.30-21.16.16:346][342]Cmd: EDIT PASTE
+[2024.10.30-21.16.23:542][425]Cmd: EDIT COPY
+[2024.10.30-21.16.23:785][428]Cmd: EDIT PASTE
+[2024.10.30-21.16.34:146][547]Cmd: EDIT COPY
+[2024.10.30-21.16.34:386][550]Cmd: EDIT PASTE
+[2024.10.30-21.17.06:322][923]Cmd: EDIT COPY
+[2024.10.30-21.17.06:642][924]Cmd: EDIT PASTE
+[2024.10.30-21.17.26:826][166]Cmd: EDIT COPY
+[2024.10.30-21.17.27:075][169]Cmd: EDIT PASTE
+[2024.10.30-21.17.54:411][496]Cmd: EDIT COPY
+[2024.10.30-21.17.57:649][534]Cmd: TRANSACTION UNDO
+[2024.10.30-21.17.57:649][534]LogEditorTransaction: Undo Rotate Elements
+[2024.10.30-21.17.58:856][547]Cmd: EDIT COPY
+[2024.10.30-21.17.59:094][550]Cmd: EDIT PASTE
+[2024.10.30-21.18.10:188][681]Cmd: EDIT COPY
+[2024.10.30-21.18.10:438][684]Cmd: EDIT PASTE
+[2024.10.30-21.18.31:294][934]Cmd: EDIT COPY
+[2024.10.30-21.18.31:678][939]Cmd: EDIT PASTE
+[2024.10.30-21.18.49:308][143]Cmd: EDIT COPY
+[2024.10.30-21.18.49:435][147]Cmd: EDIT PASTE
+[2024.10.30-21.19.05:586][347]Cmd: EDIT COPY
+[2024.10.30-21.19.05:879][348]Cmd: EDIT PASTE
+[2024.10.30-21.19.05:881][348]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.19.08:830][388]Cmd: TRANSACTION UNDO
+[2024.10.30-21.19.08:830][388]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.19.10:015][401]Cmd: EDIT COPY
+[2024.10.30-21.19.10:411][404]Cmd: EDIT PASTE
+[2024.10.30-21.19.30:540][643]Cmd: EDIT COPY
+[2024.10.30-21.19.30:704][645]Cmd: EDIT PASTE
+[2024.10.30-21.19.52:009][901]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8445.759766
+[2024.10.30-21.19.52:326][904]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.19.52:326][904]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8445.965820, Update Interval: 342.185120
+[2024.10.30-21.19.55:281][937]Cmd: EDIT COPY
+[2024.10.30-21.19.55:521][940]Cmd: EDIT PASTE
+[2024.10.30-21.20.09:831][113]Cmd: EDIT COPY
+[2024.10.30-21.20.10:072][116]Cmd: EDIT PASTE
+[2024.10.30-21.20.21:471][247]Cmd: EDIT COPY
+[2024.10.30-21.20.21:827][254]Cmd: EDIT PASTE
+[2024.10.30-21.20.38:451][449]Cmd: EDIT COPY
+[2024.10.30-21.20.38:697][452]Cmd: EDIT PASTE
+[2024.10.30-21.20.47:318][553]Cmd: EDIT COPY
+[2024.10.30-21.20.47:487][555]Cmd: EDIT PASTE
+[2024.10.30-21.21.11:793][839]Cmd: EDIT COPY
+[2024.10.30-21.21.11:970][841]Cmd: EDIT PASTE
+[2024.10.30-21.22.27:003][760]Cmd: EDIT COPY
+[2024.10.30-21.22.27:257][763]Cmd: EDIT PASTE
+[2024.10.30-21.22.27:258][763]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.23.06:284][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-21.23.06:567][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.10.30-21.23.06:648][220]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-21.23.06:650][220]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneB3930FD145FCB94B08769A9BA8F257A7.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-21.23.06:661][220]LogFileHelpers: Saving map 'LevelOne' took 0.143
+[2024.10.30-21.23.06:675][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 390 ms (total: 3.01 sec)
+[2024.10.30-21.23.06:679][220]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-21.23.06:679][220]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-21.23.38:008][603]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-21.23.38:032][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-21.23.38:032][603]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 9:23:38 AM)
+[2024.10.30-21.23.38:033][603]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-21.23.38:107][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073300s)
+[2024.10.30-21.23.38:107][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.073468s)
+[2024.10.30-21.23.38:138][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2024.10.30-21.23.38:141][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-21.23.38:141][603]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-21.23.38:143][603]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-21.23.38:144][603]LogPlayLevel: PIE: World Init took: (0.003342s)
+[2024.10.30-21.23.38:144][603]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-21.23.38:144][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-21.23.38:144][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-21.23.38:145][603]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-21.23.38:145][603]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-21.23.38:145][603]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-21.23.38:151][603]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-21.23.38:232][603]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-21.23.38:232][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-21.23.38:232][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-21.23.38:232][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-21.23.38:233][603]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.10.30-21.23.38:233][603]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.10.30-21.23.38:235][603]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.10.30-21.23.38:235][603]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.10.30-21.23.38:235][603]LogInit: FAudioDevice initialized with ID 12.
+[2024.10.30-21.23.38:235][603]LogAudio: Display: Audio Device (ID: 12) registered with world 'LevelOne'.
+[2024.10.30-21.23.38:235][603]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.30-21.23.38:242][603]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-21.23.38:259][603]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2024.10.30-15.23.38
+[2024.10.30-21.23.38:260][603]LogWorld: Bringing up level for play took: 0.016959
+[2024.10.30-21.23.38:263][603]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.10.30-21.23.38:268][603]PIE: Server logged in
+[2024.10.30-21.23.38:269][603]PIE: Play in editor total start time 0.237 seconds.
+[2024.10.30-21.24.22:075][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-21.24.22:075][104]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-21.24.22:077][104]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-21.24.22:082][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-21.24.22:247][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-21.24.22:260][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-21.24.22:302][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-21.24.22:305][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.30-21.24.22:305][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.30-21.24.22:315][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.30-21.24.22:340][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-21.24.22:358][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2024.10.30-21.24.22:476][105]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.10.30-21.26.22:284][540]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8836.030273
+[2024.10.30-21.26.22:527][543]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.26.22:527][543]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8836.193359, Update Interval: 354.153259
+[2024.10.30-21.26.44:128][798]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC
+[2024.10.30-21.26.44:128][798]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC
+[2024.10.30-21.26.44:129][798]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_365
+[2024.10.30-21.26.47:892][839]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC
+[2024.10.30-21.26.47:892][839]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC
+[2024.10.30-21.26.47:897][839]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueC.SM_RockBlueC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_366
+[2024.10.30-21.27.25:527][289]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.30-21.28.19:910][949]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB
+[2024.10.30-21.28.19:910][949]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB
+[2024.10.30-21.28.19:911][949]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_367
+[2024.10.30-21.28.25:258][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB
+[2024.10.30-21.28.25:258][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB
+[2024.10.30-21.28.25:262][  8]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueB.SM_RockBlueB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_368
+[2024.10.30-21.28.30:890][ 66]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE
+[2024.10.30-21.28.30:890][ 66]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE
+[2024.10.30-21.28.30:891][ 66]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_369
+[2024.10.30-21.28.33:444][ 96]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE
+[2024.10.30-21.28.33:445][ 96]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE
+[2024.10.30-21.28.33:446][ 96]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/SM_RockBlueE.SM_RockBlueE as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_370
+[2024.10.30-21.28.44:725][225]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC
+[2024.10.30-21.28.44:725][225]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC
+[2024.10.30-21.28.44:726][225]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_371
+[2024.10.30-21.28.46:214][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC
+[2024.10.30-21.28.46:215][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC
+[2024.10.30-21.28.46:216][238]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesBigC.SM_RockPilesBigC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_372
+[2024.10.30-21.28.46:583][240]Cmd: TRANSACTION UNDO
+[2024.10.30-21.28.46:583][240]LogEditorTransaction: Undo Create Actors
+[2024.10.30-21.28.52:196][294]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense
+[2024.10.30-21.28.52:196][294]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense
+[2024.10.30-21.28.52:198][294]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_373
+[2024.10.30-21.28.55:609][334]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense
+[2024.10.30-21.28.55:609][334]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense
+[2024.10.30-21.28.55:611][334]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesBDense.SM_RockPilesPebblesBDense as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_374
+[2024.10.30-21.28.59:679][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE
+[2024.10.30-21.28.59:679][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE
+[2024.10.30-21.28.59:681][376]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_375
+[2024.10.30-21.29.01:513][398]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE
+[2024.10.30-21.29.01:513][398]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE
+[2024.10.30-21.29.01:516][398]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Rocks/RockPiles/SM_RockPilesPebblesE.SM_RockPilesPebblesE as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_376
+[2024.10.30-21.29.26:634][696]Cmd: EDIT COPY
+[2024.10.30-21.29.26:946][700]Cmd: EDIT PASTE
+[2024.10.30-21.29.53:278][ 29]Cmd: EDIT COPY
+[2024.10.30-21.29.54:419][ 44]Cmd: EDIT PASTE
+[2024.10.30-21.30.18:612][340]Cmd: EDIT COPY
+[2024.10.30-21.30.18:994][345]Cmd: EDIT PASTE
+[2024.10.30-21.30.52:940][760]Cmd: EDIT PASTE
+[2024.10.30-21.31.17:461][ 58]Cmd: EDIT COPY
+[2024.10.30-21.31.17:703][ 61]Cmd: EDIT PASTE
+[2024.10.30-21.31.58:337][547]Cmd: EDIT COPY
+[2024.10.30-21.31.58:646][551]Cmd: EDIT PASTE
+[2024.10.30-21.32.35:673][  0]Cmd: EDIT COPY
+[2024.10.30-21.32.35:978][  1]Cmd: EDIT PASTE
+[2024.10.30-21.33.11:718][436]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9245.475586
+[2024.10.30-21.33.12:039][440]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.33.12:039][440]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9245.715820, Update Interval: 310.483093
+[2024.10.30-21.33.13:584][459]Cmd: EDIT COPY
+[2024.10.30-21.33.13:830][462]Cmd: EDIT PASTE
+[2024.10.30-21.34.11:543][152]Cmd: EDIT COPY
+[2024.10.30-21.34.11:656][153]Cmd: EDIT PASTE
+[2024.10.30-21.34.45:745][567]Cmd: EDIT COPY
+[2024.10.30-21.34.45:978][570]Cmd: EDIT PASTE
+[2024.10.30-21.34.45:980][570]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.34.56:171][695]Cmd: EDIT COPY
+[2024.10.30-21.34.56:413][698]Cmd: EDIT PASTE
+[2024.10.30-21.35.06:161][812]Cmd: EDIT COPY
+[2024.10.30-21.35.06:401][815]Cmd: EDIT PASTE
+[2024.10.30-21.35.15:984][928]Cmd: EDIT COPY
+[2024.10.30-21.35.16:216][931]Cmd: EDIT PASTE
+[2024.10.30-21.35.25:041][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-21.35.25:323][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.10.30-21.35.25:408][ 41]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-21.35.25:409][ 41]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneBE6AE6DE47D77593D5462AAC3E129ECE.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-21.35.25:422][ 41]LogFileHelpers: Saving map 'LevelOne' took 0.149
+[2024.10.30-21.35.25:433][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 392 ms (total: 3.41 sec)
+[2024.10.30-21.35.25:438][ 41]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-21.35.25:438][ 41]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-21.35.41:033][226]Cmd: EDIT COPY
+[2024.10.30-21.35.48:101][310]Cmd: TRANSACTION UNDO
+[2024.10.30-21.35.48:101][310]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.35.48:945][320]Cmd: EDIT PASTE
+[2024.10.30-21.35.51:315][347]Cmd: TRANSACTION UNDO
+[2024.10.30-21.35.51:315][347]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.37.07:487][244]Cmd: EDIT COPY
+[2024.10.30-21.37.07:796][245]Cmd: EDIT PASTE
+[2024.10.30-21.37.41:457][657]Cmd: EDIT COPY
+[2024.10.30-21.37.41:688][660]Cmd: EDIT PASTE
+[2024.10.30-21.38.31:987][282]Cmd: EDIT COPY
+[2024.10.30-21.38.32:608][287]Cmd: EDIT PASTE
+[2024.10.30-21.38.59:951][613]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9593.693359
+[2024.10.30-21.39.00:240][619]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.39.00:240][619]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9593.904297, Update Interval: 329.383820
+[2024.10.30-21.39.29:331][977]Cmd: EDIT COPY
+[2024.10.30-21.39.29:577][980]Cmd: EDIT PASTE
+[2024.10.30-21.39.38:822][ 92]Cmd: TRANSACTION UNDO
+[2024.10.30-21.39.38:822][ 92]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.39.41:201][119]Cmd: TRANSACTION UNDO
+[2024.10.30-21.39.41:201][119]LogEditorTransaction: Undo Paste
+[2024.10.30-21.39.43:449][145]Cmd: TRANSACTION UNDO
+[2024.10.30-21.39.43:449][145]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.30-21.39.46:903][182]Cmd: TRANSACTION UNDO
+[2024.10.30-21.39.46:903][182]LogEditorTransaction: Undo Move Elements
+[2024.10.30-21.40.18:687][554]Cmd: EDIT COPY
+[2024.10.30-21.40.18:972][560]Cmd: EDIT PASTE
+[2024.10.30-21.41.03:358][ 83]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB
+[2024.10.30-21.41.03:358][ 83]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB
+[2024.10.30-21.41.03:359][ 83]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_400
+[2024.10.30-21.41.06:104][113]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB
+[2024.10.30-21.41.06:104][113]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB
+[2024.10.30-21.41.06:109][113]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantB.SM_DeathCapBAdultVariantB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_401
+[2024.10.30-21.41.41:572][548]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA
+[2024.10.30-21.41.41:572][548]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA
+[2024.10.30-21.41.41:573][548]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_402
+[2024.10.30-21.41.43:470][569]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA
+[2024.10.30-21.41.43:471][569]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA
+[2024.10.30-21.41.43:476][569]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantA.SM_DeathCapBAdultVariantA as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_403
+[2024.10.30-21.42.11:864][923]Cmd: EDIT COPY
+[2024.10.30-21.42.12:083][926]Cmd: EDIT PASTE
+[2024.10.30-21.42.24:049][ 73]Cmd: EDIT COPY
+[2024.10.30-21.42.24:314][ 79]Cmd: EDIT PASTE
+[2024.10.30-21.42.31:927][167]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC
+[2024.10.30-21.42.31:927][167]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC
+[2024.10.30-21.42.31:929][167]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_406
+[2024.10.30-21.42.34:126][195]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC
+[2024.10.30-21.42.34:126][195]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC
+[2024.10.30-21.42.34:131][195]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Mushrooms/DeathCap/SM_DeathCapBAdultVariantC.SM_DeathCapBAdultVariantC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_407
+[2024.10.30-21.43.14:378][690]Cmd: EDIT COPY
+[2024.10.30-21.43.14:521][693]Cmd: EDIT PASTE
+[2024.10.30-21.44.58:175][955]Cmd: EDIT COPY
+[2024.10.30-21.44.58:419][958]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.10.30-21.45.04:250][ 27]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9957.993164
+[2024.10.30-21.45.04:488][ 30]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.45.04:488][ 30]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9958.150391, Update Interval: 319.199188
+[2024.10.30-21.46.36:615][138]Cmd: EDIT COPY
+[2024.10.30-21.46.36:867][141]Cmd: EDIT PASTE
+[2024.10.30-21.48.57:391][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves
+[2024.10.30-21.48.57:391][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves
+[2024.10.30-21.48.57:392][906]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_416
+[2024.10.30-21.49.00:036][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves
+[2024.10.30-21.49.00:036][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves
+[2024.10.30-21.49.00:039][938]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicCSmallMoreLeaves.SM_WildGarlicCSmallMoreLeaves as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_417
+[2024.10.30-21.49.18:850][175]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB
+[2024.10.30-21.49.18:851][175]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB
+[2024.10.30-21.49.18:852][175]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_418
+[2024.10.30-21.49.21:073][202]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB
+[2024.10.30-21.49.21:073][202]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB
+[2024.10.30-21.49.21:076][202]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterB.SM_WildGarlicsClusterB as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_419
+[2024.10.30-21.49.48:234][539]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC
+[2024.10.30-21.49.48:234][539]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC
+[2024.10.30-21.49.48:236][539]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_420
+[2024.10.30-21.49.50:370][565]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC
+[2024.10.30-21.49.50:370][565]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC
+[2024.10.30-21.49.50:373][565]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicsClusterC.SM_WildGarlicsClusterC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_421
+[2024.10.30-21.50.01:712][697]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves
+[2024.10.30-21.50.01:712][697]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves
+[2024.10.30-21.50.01:713][697]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_422
+[2024.10.30-21.50.04:707][731]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves
+[2024.10.30-21.50.04:707][731]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves
+[2024.10.30-21.50.04:712][731]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Plants/WildGarlic/SM_WildGarlicBLeaves.SM_WildGarlicBLeaves as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_423
+[2024.10.30-21.50.17:603][891]Cmd: EDIT COPY
+[2024.10.30-21.50.17:912][896]Cmd: EDIT PASTE
+[2024.10.30-21.51.05:525][490]Cmd: EDIT COPY
+[2024.10.30-21.51.05:530][490]Cmd: EDIT PASTE
+[2024.10.30-21.51.09:020][530]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10322.743164
+[2024.10.30-21.51.09:260][533]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.51.09:260][533]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10322.899414, Update Interval: 336.860260
+[2024.10.30-21.51.26:143][740]Cmd: EDIT COPY
+[2024.10.30-21.51.26:384][743]Cmd: EDIT PASTE
+[2024.10.30-21.51.48:929][ 10]Cmd: EDIT PASTE
+[2024.10.30-21.51.51:279][ 39]Cmd: TRANSACTION UNDO
+[2024.10.30-21.51.51:279][ 39]LogEditorTransaction: Undo Paste
+[2024.10.30-21.51.53:237][ 58]Cmd: EDIT COPY
+[2024.10.30-21.51.53:654][ 61]Cmd: EDIT PASTE
+[2024.10.30-21.52.11:578][279]Cmd: EDIT COPY
+[2024.10.30-21.52.11:741][281]Cmd: EDIT PASTE
+[2024.10.30-21.52.30:757][507]Cmd: EDIT COPY
+[2024.10.30-21.52.30:865][508]Cmd: EDIT PASTE
+[2024.10.30-21.52.54:112][802]Cmd: EDIT COPY
+[2024.10.30-21.52.54:336][805]Cmd: EDIT PASTE
+[2024.10.30-21.53.17:452][ 91]Cmd: EDIT COPY
+[2024.10.30-21.53.17:702][ 96]Cmd: EDIT PASTE
+[2024.10.30-21.53.33:692][294]Cmd: EDIT COPY
+[2024.10.30-21.53.34:025][295]Cmd: EDIT PASTE
+[2024.10.30-21.54.01:934][639]Cmd: EDIT COPY
+[2024.10.30-21.54.02:077][644]Cmd: EDIT PASTE
+[2024.10.30-21.54.34:725][ 41]Cmd: EDIT COPY
+[2024.10.30-21.54.34:736][ 41]Cmd: EDIT PASTE
+[2024.10.30-21.55.35:281][777]Cmd: EDIT COPY
+[2024.10.30-21.55.35:504][780]Cmd: EDIT PASTE
+[2024.10.30-21.56.11:057][211]Cmd: EDIT COPY
+[2024.10.30-21.56.11:219][213]Cmd: EDIT PASTE
+[2024.10.30-21.57.15:932][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-21.57.16:206][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.10.30-21.57.16:320][  0]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-21.57.16:322][  0]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne1D934A484D8139EEEE95CAB77EEEDB96.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-21.57.16:335][  0]LogFileHelpers: Saving map 'LevelOne' took 0.181
+[2024.10.30-21.57.16:348][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 417 ms (total: 3.82 sec)
+[2024.10.30-21.57.16:353][  0]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-21.57.16:353][  0]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-21.57.42:841][313]Cmd: TRANSACTION UNDO
+[2024.10.30-21.57.42:841][313]LogEditorTransaction: Undo Rotate Elements
+[2024.10.30-21.57.43:749][322]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10717.449219
+[2024.10.30-21.57.43:985][325]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-21.57.43:985][325]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10717.606445, Update Interval: 325.756409
+[2024.10.30-21.59.17:906][439]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC
+[2024.10.30-21.59.17:906][439]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC
+[2024.10.30-21.59.17:906][439]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_477
+[2024.10.30-21.59.22:379][494]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC
+[2024.10.30-21.59.22:379][494]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC
+[2024.10.30-21.59.22:381][494]LogActorFactory: Actor Factory spawned StaticMesh /Game/VRS_LowPolyNature/Meshes/Env/Ground/FloatingIslands/SM_FloatingIslandC.SM_FloatingIslandC as actor: StaticMeshActor /Game/LevelOne.LevelOne:PersistentLevel.StaticMeshActor_478
+[2024.10.30-22.01.26:769][ 29]LogDerivedDataCache: C:/Users/aherv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.449 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5419 files in 7247 folders with total size 270 MiB.
+[2024.10.30-22.01.27:664][ 39]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-22.01.52:184][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-22.01.52:458][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.10.30-22.01.52:566][354]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-22.01.52:569][354]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneCEEFD8094D7A040ADC4B7E919276EED8.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-22.01.52:580][354]LogFileHelpers: Saving map 'LevelOne' took 0.171
+[2024.10.30-22.01.52:594][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 409 ms (total: 4.23 sec)
+[2024.10.30-22.01.52:597][354]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-22.01.52:599][354]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.30-22.01.53:615][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-22.01.53:638][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-22.01.53:638][369]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 10:01:53 AM)
+[2024.10.30-22.01.53:639][369]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.01.53:724][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084352s)
+[2024.10.30-22.01.53:724][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.084535s)
+[2024.10.30-22.01.53:767][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2024.10.30-22.01.53:769][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-22.01.53:769][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-22.01.53:770][369]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-22.01.53:771][369]LogPlayLevel: PIE: World Init took: (0.002679s)
+[2024.10.30-22.01.53:772][369]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.10.30-22.01.53:772][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-22.01.53:772][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-22.01.53:772][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-22.01.53:773][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-22.01.53:773][369]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-22.01.53:773][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-22.01.53:773][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-22.01.53:773][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-22.01.53:774][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-22.01.53:774][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-22.01.53:774][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-22.01.53:782][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-22.01.53:821][369]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-22.01.53:821][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-22.01.53:821][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-22.01.53:821][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-22.01.53:822][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.10.30-22.01.53:822][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.10.30-22.01.53:824][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.10.30-22.01.53:824][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.10.30-22.01.53:824][369]LogInit: FAudioDevice initialized with ID 13.
+[2024.10.30-22.01.53:824][369]LogAudio: Display: Audio Device (ID: 13) registered with world 'LevelOne'.
+[2024.10.30-22.01.53:824][369]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.30-22.01.53:831][369]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-22.01.53:852][369]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2024.10.30-16.01.53
+[2024.10.30-22.01.53:853][369]LogWorld: Bringing up level for play took: 0.021575
+[2024.10.30-22.01.53:856][369]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.10.30-22.01.53:862][369]PIE: Server logged in
+[2024.10.30-22.01.53:863][369]PIE: Play in editor total start time 0.225 seconds.
+[2024.10.30-22.02.58:214][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.02.58:214][104]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.02.58:216][104]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-22.02.58:220][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.02.58:361][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-22.02.58:373][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.02.58:429][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-22.02.58:432][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.30-22.02.58:432][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.30-22.02.58:437][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.30-22.02.58:470][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.02.58:488][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2024.10.30-22.02.58:580][105]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.10.30-22.03.20:890][368]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-22.03.33:751][512]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-22.03.44:327][639]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-22.03.44:351][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-22.03.44:351][639]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 10:03:44 AM)
+[2024.10.30-22.03.44:351][639]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.03.44:450][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098123s)
+[2024.10.30-22.03.44:450][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.098230s)
+[2024.10.30-22.03.44:492][639]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2024.10.30-22.03.44:495][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-22.03.44:495][639]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-22.03.44:496][639]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-22.03.44:496][639]LogPlayLevel: PIE: World Init took: (0.001939s)
+[2024.10.30-22.03.44:496][639]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-22.03.44:496][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-22.03.44:497][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-22.03.44:498][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-22.03.44:498][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-22.03.44:498][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-22.03.44:503][639]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-22.03.44:535][639]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-22.03.44:535][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-22.03.44:536][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-22.03.44:536][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-22.03.44:536][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.10.30-22.03.44:536][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.10.30-22.03.44:538][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.10.30-22.03.44:538][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.10.30-22.03.44:538][639]LogInit: FAudioDevice initialized with ID 14.
+[2024.10.30-22.03.44:538][639]LogAudio: Display: Audio Device (ID: 14) registered with world 'LevelOne'.
+[2024.10.30-22.03.44:538][639]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.30-22.03.44:544][639]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-22.03.44:569][639]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2024.10.30-16.03.44
+[2024.10.30-22.03.44:569][639]LogWorld: Bringing up level for play took: 0.024019
+[2024.10.30-22.03.44:572][639]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.10.30-22.03.44:576][639]PIE: Server logged in
+[2024.10.30-22.03.44:578][639]PIE: Play in editor total start time 0.228 seconds.
+[2024.10.30-22.03.56:871][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.03.56:871][780]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.03.56:872][780]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-22.03.56:877][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.03.57:009][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-22.03.57:023][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.03.57:079][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.03.57:083][780]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.30-22.03.57:083][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.30-22.03.57:092][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.30-22.03.57:120][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2024.10.30-22.03.57:216][781]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.10.30-22.04.03:473][855]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-22.04.04:667][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11098.375000
+[2024.10.30-22.04.04:989][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.30-22.04.04:989][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11098.615234, Update Interval: 304.491699
+[2024.10.30-22.04.05:132][876]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-22.04.05:154][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-22.04.05:154][876]PIE: New page: PIE session: LevelOne (Oct 30, 2024, 10:04:05 AM)
+[2024.10.30-22.04.05:154][876]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.04.05:239][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085183s)
+[2024.10.30-22.04.05:239][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelOne.LevelOne to /Game/UEDPIE_0_LevelOne.LevelOne (0.085285s)
+[2024.10.30-22.04.05:276][876]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2024.10.30-22.04.05:279][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-22.04.05:280][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-22.04.05:281][876]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.30-22.04.05:282][876]LogPlayLevel: PIE: World Init took: (0.002550s)
+[2024.10.30-22.04.05:282][876]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-22.04.05:282][876]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-22.04.05:282][876]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-22.04.05:283][876]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-22.04.05:283][876]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-22.04.05:283][876]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-22.04.05:289][876]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-22.04.05:340][876]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.10.30-22.04.05:341][876]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-22.04.05:341][876]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-22.04.05:341][876]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-22.04.05:341][876]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.10.30-22.04.05:341][876]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.10.30-22.04.05:344][876]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.10.30-22.04.05:344][876]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.10.30-22.04.05:344][876]LogInit: FAudioDevice initialized with ID 15.
+[2024.10.30-22.04.05:344][876]LogAudio: Display: Audio Device (ID: 15) registered with world 'LevelOne'.
+[2024.10.30-22.04.05:344][876]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.30-22.04.05:350][876]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.30-22.04.05:370][876]LogWorld: Bringing World /Game/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2024.10.30-16.04.05
+[2024.10.30-22.04.05:371][876]LogWorld: Bringing up level for play took: 0.020657
+[2024.10.30-22.04.05:377][876]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.10.30-22.04.05:382][876]PIE: Server logged in
+[2024.10.30-22.04.05:382][876]PIE: Play in editor total start time 0.229 seconds.
+[2024.10.30-22.04.30:675][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.04.30:676][187]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelOne
+[2024.10.30-22.04.30:676][187]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-22.04.30:681][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.04.30:806][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-22.04.30:818][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-22.04.30:872][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-22.04.30:876][187]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.30-22.04.30:876][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.30-22.04.30:885][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.30-22.04.30:917][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2024.10.30-22.04.31:017][188]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.10.30-22.05.29:354][895]Cmd: EDIT COPY
+[2024.10.30-22.05.29:601][898]Cmd: EDIT PASTE
+[2024.10.30-22.05.53:823][185]Cmd: EDIT COPY
+[2024.10.30-22.05.53:995][187]Cmd: EDIT PASTE
+[2024.10.30-22.06.14:249][426]Cmd: TRANSACTION UNDO
+[2024.10.30-22.06.14:250][426]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.30-22.06.21:298][506]Cmd: EDIT COPY
+[2024.10.30-22.06.21:506][508]Cmd: EDIT PASTE
+[2024.10.30-22.06.27:533][581]Cmd: EDIT COPY
+[2024.10.30-22.06.27:720][583]Cmd: EDIT PASTE
+[2024.10.30-22.06.35:397][675]Cmd: EDIT COPY
+[2024.10.30-22.06.37:899][709]Cmd: TRANSACTION UNDO
+[2024.10.30-22.06.37:899][709]LogEditorTransaction: Undo Move Elements
+[2024.10.30-22.06.38:865][719]Cmd: TRANSACTION UNDO
+[2024.10.30-22.06.38:865][719]LogEditorTransaction: Undo Move Elements
+[2024.10.30-22.06.42:130][761]Cmd: EDIT COPY
+[2024.10.30-22.06.42:361][764]Cmd: EDIT PASTE
+[2024.10.30-22.06.58:583][964]Cmd: EDIT COPY
+[2024.10.30-22.06.58:820][967]Cmd: EDIT PASTE
+[2024.10.30-22.07.03:425][ 20]Cmd: EDIT COPY
+[2024.10.30-22.07.03:673][ 23]Cmd: EDIT PASTE
+[2024.10.30-22.07.16:362][172]Cmd: EDIT COPY
+[2024.10.30-22.07.16:610][175]Cmd: EDIT PASTE
+[2024.10.30-22.07.33:206][367]Cmd: EDIT COPY
+[2024.10.30-22.07.33:523][368]Cmd: EDIT PASTE
+[2024.10.30-22.07.47:188][527]Cmd: EDIT COPY
+[2024.10.30-22.07.47:427][530]Cmd: EDIT PASTE
+[2024.10.30-22.07.53:925][606]Cmd: EDIT COPY
+[2024.10.30-22.07.54:050][610]Cmd: EDIT PASTE
+[2024.10.30-22.08.13:263][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-22.08.13:547][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.10.30-22.08.13:650][837]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.30-22.08.13:652][837]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne5EB69054435779272D6A7E9972D1AC57.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.30-22.08.13:663][837]LogFileHelpers: Saving map 'LevelOne' took 0.166
+[2024.10.30-22.08.13:675][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 411 ms (total: 4.65 sec)
+[2024.10.30-22.08.13:678][837]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.30-22.08.13:678][837]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
