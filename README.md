@@ -25,6 +25,8 @@
 
 [ChatGPT Use During HW1 - Ashly Hervey and Livia Lane.pdf](https://github.com/user-attachments/files/17594139/ChatGPT.Use.During.HW1.-.Ashly.Hervey.and.Livia.Lane.pdf)
 
+[Homework1 Zip](https://drive.google.com/file/d/1vV-ggF7BUum6O04hDh6aH3uhfrHhRJTg/view?usp=sharing)
+
 
 ## Project Description:
 
