@@ -1251,3 +1251,68 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.31-16.26.24:014][748]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2024.10.31-16.26.24:874][748]LogSlate: Took 0.014484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2024.10.31-16.26.26:551][749]LogAutomationController: Ignoring very large delta of 9.27 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.31-16.29.18:864][414]LogAutomationController: Ignoring very large delta of 2.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.31-16.30.23:023][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 350.116699
+[2024.10.31-16.30.24:027][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-16.30.24:027][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.787445, Update Interval: 318.281799
+[2024.10.31-16.31.53:755][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2024.10.31-16.31.53:872][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-16.31.53:876][189]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelTwo.LevelTwo
+[2024.10.31-16.31.53:876][189]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-16.31.53:876][189]LightingResults: New page: Lighting Build
+[2024.10.31-16.31.53:876][189]LoadErrors: New page: Loading map: LevelTwo.umap
+[2024.10.31-16.31.53:951][189]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-16.31.53:952][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-16.31.53:952][189]MapCheck: New page: Map Check
+[2024.10.31-16.31.53:952][189]LightingResults: New page: Lighting Build
+[2024.10.31-16.31.53:977][189]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-16.31.53:997][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2024.10.31-16.31.54:000][189]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-16.31.54:001][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-16.31.54:027][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2024.10.31-16.31.54:056][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2024.10.31-16.31.54:066][189]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelTwo'.
+[2024.10.31-16.31.54:066][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-16.31.54:066][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-16.31.54:067][189]LogAIModule: Creating AISystem for world LevelTwo
+[2024.10.31-16.31.54:207][189]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-16.31.54:237][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.10.31-16.31.54:250][189]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-16.31.54:250][189]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.314ms to complete.
+[2024.10.31-16.31.58:984][193]LogAutomationController: Ignoring very large delta of 4.63 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.31-16.32.03:993][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.10.31-16.32.04:167][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-16.32.04:211][249]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelOne.LevelOne
+[2024.10.31-16.32.04:212][249]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-16.32.04:212][249]LightingResults: New page: Lighting Build
+[2024.10.31-16.32.04:212][249]LoadErrors: New page: Loading map: LevelOne.umap
+[2024.10.31-16.32.04:273][249]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-16.32.04:273][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-16.32.04:273][249]MapCheck: New page: Map Check
+[2024.10.31-16.32.04:273][249]LightingResults: New page: Lighting Build
+[2024.10.31-16.32.04:314][249]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-16.32.04:318][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.10.31-16.32.04:324][249]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-16.32.04:326][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-16.32.04:367][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2024.10.31-16.32.04:393][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.10.31-16.32.04:457][249]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2024.10.31-16.32.04:457][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-16.32.04:457][249]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-16.32.04:458][249]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.31-16.32.04:676][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-16.32.04:722][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2024.10.31-16.32.04:735][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-16.32.04:738][249]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.622ms to complete.
+[2024.10.31-16.32.31:510][571]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: ================================================
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: RAM used: 104.05 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.31-16.32.31:601][571]LogShaderCompilers: Display: ================================================
+[2024.10.31-16.32.32:372][574]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
