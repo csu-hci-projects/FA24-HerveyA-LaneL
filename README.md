@@ -16,7 +16,12 @@
 
 <a href="https://www.youtube.com/watch?v=uI5ps5DbFg">Target Damage System Tutorial: https://www.youtube.com/watch?v=uI5ps5DbFg</a>
 
+
+## Project Description:
+
 This program is a First Person Shooter (FPS) game built in Unreal Engine, version 5.3.2. The game starts in a Main Menu level, where the player can choose to play the game or quit the application. If the player chooses to play the game, then level one will be opened, where the player is spawned in and will be required to shoot and destroy three targets in order to complete the level. In this level, there are poisonous mushroom trees that will damage the player whenever they come into contact with it. The player must thus avoid coming into contact with these trees while navigating their way through the forest to find and destroy the target crystals. Completing level one will then direct the player to level two, where they will be spawned in and have to shoot down 5 target crystals. This level also contains yellow mushrooms that will do damage to the player whenever the player comes into contact with it. Destroying all of the targets will lead the player back to the main screen where they can then choose to start over and play the two levels over again or they can quit the game and the application will close. Each level also contains health pickups and ammo pickups, which will replenish the player's health and ammo supply. The player's health is capped at 100, and the starting amount of ammo is 10. 
+
+## Task Delegation:
 
 Livia:
 Built and designed Level two.
@@ -42,13 +47,13 @@ Added in Health Point (HP) pickup objects so that the player would be able to ge
 Debugged level transition blueprints.
 Worked on the ReadMe and resources beyond this class document.
 
-Resources Beyond This Class:
+## Resources Beyond This Class:
 
 For this homework, we mostly used tutorials to help with our game implementation but we did sparingly use the LLM ChatGPT. For our Health Point (HP) and damage system, we were able to find a useful tutorial online that helped with the UI and blueprint logic that we were able to follow and apply a similar system to our player. We also used a tutorial to help implement our target HP system, which in our case were crystals. We again found another tutorial for the health pickups for our player which we took some of the logic from. We also relied on a tutorial for our main menu. All of the links to these tutorials are included in our references.
 What we used Chat GPT for was for bug fixing our game when needed. For one, we ran into an issue when trying to design the logic for transitioning between levels. We had originally designed it to detect if the level was completed after each tick, but with the help of ChatGpt we were able to rework some of our logic to create a custom event once the number of targets left to hit was equal to zero. We also used it to help reload the level when a player dies by requesting basic instructions and bugfixes. We also used ChatGPT to figure out how to test our damage and reload systems by learning how to apply a damage and death event to the player over time. We also used ChatGPT to help define the requirements that would go into designing the damage system for the targets. Finally we used ChatGPT to help debug the lighting issues we were having on Level One. 
 
 
-Meetings with your group:
+## Meetings with your group:
 
 October 21th: Met in class and discussed our tasks/divided levels and chose a theme for our design. Delegated each person to choose assets and come up with a plan for their level prior to starting major development. 
 
