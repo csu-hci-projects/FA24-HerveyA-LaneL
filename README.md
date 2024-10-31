@@ -16,11 +16,15 @@
 
 <a href="https://www.youtube.com/watch?v=uI5ps5DbFg">Target Damage System Tutorial: https://www.youtube.com/watch?v=uI5ps5DbFg</a>
 
-## Game Video Links:
+
+## Game Video Links and LLM PDF:
 
 <a href="https://youtu.be/qWz5tkQL8FM">CS310H Homework 1 Game Walkthrough: https://youtu.be/qWz5tkQL8FM</a>
 
 <a href="https://youtu.be/IGFp3e-CZ2s">CS310H Homework 1 BluePrint Walkthrough: https://youtu.be/IGFp3e-CZ2s</a>
+
+[ChatGPT Use During HW1 - Ashly Hervey and Livia Lane.pdf](https://github.com/user-attachments/files/17594139/ChatGPT.Use.During.HW1.-.Ashly.Hervey.and.Livia.Lane.pdf)
+
 
 ## Project Description:
 
