@@ -24,32 +24,33 @@ This program is a First Person Shooter (FPS) game built in Unreal Engine, versio
 ## Task Delegation:
 
 Livia:
-Built and designed Level two.
-Created the initial menu and logic for the main menu. 
-Worked on making the Ammo pickups and adding that information into the UI. 
-Added a mechanic to track the amount of targets in the game and then change levels when all targets have been defeated. 
-Created an object blueprint to create an object that will do damage to the player.
-Created multiple types of objects that do damage based on that. 
-Debugged level two lighting.
-Packaged the game for submission.
-Worked on the ReadMe and the resources beyond this class document.
+* Built and designed Level two.
+* Created the initial menu and logic for the main menu. 
+* Worked on making the Ammo pickups and adding that information into the UI. 
+* Added a mechanic to track the amount of targets in the game and then change levels when all targets have been defeated. 
+* Created an object blueprint to create an object that will do damage to the player.
+* Created multiple types of objects that do damage based on that. 
+* Debugged level two lighting.
+* Packaged the game for submission.
+* Worked on the ReadMe and the resources beyond this class document.
 
 Ashly:
-Built and designed Level One.
-Implemented the Health Point (HP) system for the player with a max health of 100.
-Implemented the Health Point (HP) player UI.
-Implemented the damage system for the player that updates health based on hazard interactions.
-Implemented the Health Point (HP) system for target objects with a max health of 100. 
-Implemented the Health Point (HP) target UI.
-Created blueprints so that the player would respawn in the level when they died.
-Created blueprints so that the target would be destroyed when it ran out of HP. 
-Added in Health Point (HP) pickup objects so that the player would be able to get additional HP when they ran out, capped the HP at 100. 
-Debugged level transition blueprints.
-Worked on the ReadMe and resources beyond this class document.
+* Built and designed Level One.
+* Implemented the Health Point (HP) system for the player with a max health of 100.
+* Implemented the Health Point (HP) player UI.
+* Implemented the damage system for the player that updates health based on hazard interactions.
+* Implemented the Health Point (HP) system for target objects with a max health of 100. 
+* Implemented the Health Point (HP) target UI.
+* Created blueprints so that the player would respawn in the level when they died.
+* Created blueprints so that the target would be destroyed when it ran out of HP. 
+* Added in Health Point (HP) pickup objects so that the player would be able to get additional HP when they ran out, capped the HP at 100. 
+* Debugged level transition blueprints.
+* Worked on the ReadMe and resources beyond this class document.
 
 ## Resources Beyond This Class:
 
 For this homework, we mostly used tutorials to help with our game implementation but we did sparingly use the LLM ChatGPT. For our Health Point (HP) and damage system, we were able to find a useful tutorial online that helped with the UI and blueprint logic that we were able to follow and apply a similar system to our player. We also used a tutorial to help implement our target HP system, which in our case were crystals. We again found another tutorial for the health pickups for our player which we took some of the logic from. We also relied on a tutorial for our main menu. All of the links to these tutorials are included in our references.
+
 What we used Chat GPT for was for bug fixing our game when needed. For one, we ran into an issue when trying to design the logic for transitioning between levels. We had originally designed it to detect if the level was completed after each tick, but with the help of ChatGpt we were able to rework some of our logic to create a custom event once the number of targets left to hit was equal to zero. We also used it to help reload the level when a player dies by requesting basic instructions and bugfixes. We also used ChatGPT to figure out how to test our damage and reload systems by learning how to apply a damage and death event to the player over time. We also used ChatGPT to help define the requirements that would go into designing the damage system for the targets. Finally we used ChatGPT to help debug the lighting issues we were having on Level One. 
 
 
