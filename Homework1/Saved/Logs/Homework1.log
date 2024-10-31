@@ -3002,3 +3002,112 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.10.31-02.14.04:921][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 437 ms (total: 2.86 sec)
 [2024.10.31-02.14.04:925][626]AssetCheck: New page: Asset Save: LevelOne
 [2024.10.31-02.14.04:925][626]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.31-02.15.27:530][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.10.31-02.15.30:212][  8]LogSlate: Window 'Save Content' being destroyed
+[2024.10.31-02.15.30:237][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-02.15.30:605][  8]LogSavePackage: Moving output files for package: /Game/MyAssets/BP_Crystal
+[2024.10.31-02.15.30:608][  8]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/BP_Crystal73D38C754E37744AF5B403B3956253C8.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/MyAssets/BP_Crystal.uasset'
+[2024.10.31-02.15.30:637][  8]LogSavePackage: Moving output files for package: /Game/UI/WB_HealthForEnemy
+[2024.10.31-02.15.30:642][  8]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/WB_HealthForEnemy6F36365243BA55A03DDACAA67A8E0163.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/UI/WB_HealthForEnemy.uasset'
+[2024.10.31-02.15.30:661][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 424 ms (total: 3.28 sec)
+[2024.10.31-02.15.30:786][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.15.30:790][  8]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelTwo.LevelTwo
+[2024.10.31-02.15.30:791][  8]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-02.15.30:792][  8]LightingResults: New page: Lighting Build
+[2024.10.31-02.15.30:992][  8]LoadErrors: New page: Loading map: LevelTwo.umap
+[2024.10.31-02.15.31:097][  8]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.15.31:097][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.15.31:099][  8]MapCheck: New page: Map Check
+[2024.10.31-02.15.31:099][  8]LightingResults: New page: Lighting Build
+[2024.10.31-02.15.31:119][  8]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-02.15.31:166][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.10.31-02.15.31:176][  8]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.15.31:176][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.15.31:195][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.10.31-02.15.31:221][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.10.31-02.15.31:229][  8]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelTwo'.
+[2024.10.31-02.15.31:229][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.15.31:229][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-02.15.31:230][  8]LogAIModule: Creating AISystem for world LevelTwo
+[2024.10.31-02.15.31:414][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-02.15.31:435][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.10.31-02.15.31:461][  8]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-02.15.31:462][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.242ms to complete.
+[2024.10.31-02.15.31:495][  8]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.31-02.15.31:495][  8]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyAssets/BP_Crystal.BP_Crystal
+[2024.10.31-02.15.31:495][  8]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WB_HealthForEnemy.WB_HealthForEnemy
+[2024.10.31-02.15.31:633][  8]LogAutomationController: Ignoring very large delta of 4.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.31-02.15.33:928][ 10]LogAutomationController: Ignoring very large delta of 2.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.31-02.15.37:113][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.10.31-02.15.37:325][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.15.37:350][ 51]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelOne.LevelOne
+[2024.10.31-02.15.37:351][ 51]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-02.15.37:351][ 51]LightingResults: New page: Lighting Build
+[2024.10.31-02.15.37:351][ 51]LoadErrors: New page: Loading map: LevelOne.umap
+[2024.10.31-02.15.37:384][ 51]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.15.37:384][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.15.37:384][ 51]MapCheck: New page: Map Check
+[2024.10.31-02.15.37:384][ 51]LightingResults: New page: Lighting Build
+[2024.10.31-02.15.37:411][ 51]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-02.15.37:415][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.10.31-02.15.37:418][ 51]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.15.37:420][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.15.37:450][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.10.31-02.15.37:471][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.10.31-02.15.37:516][ 51]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2024.10.31-02.15.37:516][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.15.37:516][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-02.15.37:517][ 51]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.31-02.15.37:663][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-02.15.37:692][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.10.31-02.15.37:704][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-02.15.37:704][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.322ms to complete.
+[2024.10.31-02.18.22:675][515]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8929.509766
+[2024.10.31-02.18.23:675][518]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.18.23:675][518]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8930.177734, Update Interval: 349.004181
+[2024.10.31-02.24.52:810][248]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9319.643555
+[2024.10.31-02.24.52:928][255]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.24.52:928][255]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9319.744141, Update Interval: 302.191833
+[2024.10.31-02.27.00:370][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.10.31-02.27.00:372][684]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelOne' took 0.023
+[2024.10.31-02.27.00:373][684]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyAssets/BP_Crystal] ([2] browsable assets)...
+[2024.10.31-02.27.00:648][684]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyAssets/BP_Crystal.BP_Crystal]
+[2024.10.31-02.27.00:649][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/BP_Crystal]
+[2024.10.31-02.27.00:667][684]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyAssets/BP_Crystal_Auto4
+[2024.10.31-02.27.00:667][684]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/BP_Crystal_Auto468BC074F4B090FF1604AF9829E9346CE.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/Autosaves/Game/MyAssets/BP_Crystal_Auto4.uasset'
+[2024.10.31-02.27.00:668][684]LogFileHelpers: Auto-saving content packages took 0.296
+[2024.10.31-02.28.46:536][  5]BlueprintLog: New page: Compile BP_Crystal
+[2024.10.31-02.28.46:580][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.10.31-02.30.37:980][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9664.795898
+[2024.10.31-02.30.38:072][790]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.30.38:072][790]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9664.871094, Update Interval: 303.056122
+[2024.10.31-02.30.41:786][  8]LogViewport: Scene viewport resized to 539x648, mode Windowed.
+[2024.10.31-02.31.44:467][662]LogViewport: Scene viewport resized to 1029x872, mode Windowed.
+[2024.10.31-02.31.52:686][716]LogDerivedDataCache: C:/Users/aherv/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.480 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5733 files in 7633 folders with total size 283 MiB.
+[2024.10.31-02.33.08:623][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.33.09:738][330]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.31-02.33.09:738][330]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.33.09:738][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-02.33.10:058][330]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.33.10:658][331]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.35.57:222][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-02.35.57:499][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.10.31-02.35.57:643][357]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.31-02.35.57:646][357]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOneC4C9AA58479F4A932FC8688136BF68AB.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.31-02.35.57:658][357]LogFileHelpers: Saving map 'LevelOne' took 0.218
+[2024.10.31-02.35.57:671][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 448 ms (total: 3.73 sec)
+[2024.10.31-02.35.57:675][357]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.31-02.35.57:676][357]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.31-02.36.40:590][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10027.470703
+[2024.10.31-02.36.41:590][511]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.36.41:590][511]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10028.136719, Update Interval: 329.693298
+[2024.10.31-02.43.07:720][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10414.583984
+[2024.10.31-02.43.07:965][725]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.43.07:965][725]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10414.768555, Update Interval: 312.837921
+[2024.10.31-02.44.47:489][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.10.31-02.44.47:495][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-02.44.48:696][353]LogSavePackage: Moving output files for package: /Game/MyAssets/BP_Crystal
+[2024.10.31-02.44.48:698][353]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/BP_CrystalBBC8ABC747F615FB232C549A5B206410.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/MyAssets/BP_Crystal.uasset'
+[2024.10.31-02.44.48:715][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.22 sec (total: 4.95 sec)
+[2024.10.31-02.44.48:719][353]AssetCheck: New page: Asset Save: BP_Crystal
+[2024.10.31-02.44.48:719][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyAssets/BP_Crystal.BP_Crystal
