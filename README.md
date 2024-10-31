@@ -56,9 +56,9 @@ What we used Chat GPT for was for bug fixing our game when needed. For one, we r
 
 ## Meetings with your group:
 
-October 21th: Met in class and discussed our tasks/divided levels and chose a theme for our design. Delegated each person to choose assets and come up with a plan for their level prior to starting major development. 
+October 21st: Met in class and discussed our tasks/divided levels and chose a theme for our design. Delegated each person to choose assets and come up with a plan for their level prior to starting major development. 
 
-October 23th: Met in class and compared selected assets to make final selections on game themes and assets that would be used across both levels. Scheduled time to meet up later in the week to sit and work on the game for a large block of time to make sure both people understood how to use all of the aspects of unreal engine as well as version control with github desktop. 
+October 23rd: Met in class and compared selected assets to make final selections on game themes and assets that would be used across both levels. Scheduled time to meet up later in the week to sit and work on the game for a large block of time to make sure both people understood how to use all of the aspects of unreal engine as well as version control with github desktop. 
 
 October 25th: Met to work on building out our game, each worked on our individual levels and discussed responsibilities we would each complete on our own for the cohesive elements of the game (blueprints for the different game functions like hazards, pickups, and targets). 
 
