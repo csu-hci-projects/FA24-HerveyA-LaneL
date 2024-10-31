@@ -1,15 +1,20 @@
 # FA24-HerveyA-LaneL
 
 ## Links for References:
-Lab video 6: https://www.youtube.com/watch?v=KOvesqHDrgg
-Lab video 7: https://www.youtube.com/watch?v=Sag2F-8ZQgM
-Lab video 8: https://www.youtube.com/watch?v=GP0LQgudYUc
+
+<a href="https://www.youtube.com/watch?v=KOvesqHDrgg">Lab video 6: https://www.youtube.com/watch?v=KOvesqHDrgg</a>
+
+<a href="https://www.youtube.com/watch?v=Sag2F-8ZQgM">Lab video 7: https://www.youtube.com/watch?v=Sag2F-8ZQgM</a>
+
+<a href="https://www.youtube.com/watch?v=GP0LQgudYUc">Lab video 8: https://www.youtube.com/watch?v=GP0LQgudYUc</a>
 
 <a href="https://www.youtube.com/watch?v=vO1i9Wcx4Xc">Health and Damage System Tutorial: https://www.youtube.com/watch?v=vO1i9Wcx4X</a>
+
 <a href="https://www.youtube.com/watch?v=kumZj_mov58&t=23s">Main Menu Tutorial: https://www.youtube.com/watch?v=kumZj_mov58&t=23s</a>
-Main Menu Tutorial: https://www.youtube.com/watch?v=kumZj_mov58&t=23s 
-Health Pickup Tutorial: https://www.youtube.com/watch?v=_p3rAlqevJ4
-Target Damage System Tutorial: https://www.youtube.com/watch?v=uI5ps5DbFg
+
+<a href="https://www.youtube.com/watch?v=_p3rAlqevJ4">Health Pickup Tutorial: https://www.youtube.com/watch?v=_p3rAlqevJ4</a>
+
+<a href="https://www.youtube.com/watch?v=uI5ps5DbFg">Target Damage System Tutorial: https://www.youtube.com/watch?v=uI5ps5DbFg</a>
 
 This program is a First Person Shooter (FPS) game built in Unreal Engine, version 5.3.2. The game starts in a Main Menu level, where the player can choose to play the game or quit the application. If the player chooses to play the game, then level one will be opened, where the player is spawned in and will be required to shoot and destroy three targets in order to complete the level. In this level, there are poisonous mushroom trees that will damage the player whenever they come into contact with it. The player must thus avoid coming into contact with these trees while navigating their way through the forest to find and destroy the target crystals. Completing level one will then direct the player to level two, where they will be spawned in and have to shoot down 5 target crystals. This level also contains yellow mushrooms that will do damage to the player whenever the player comes into contact with it. Destroying all of the targets will lead the player back to the main screen where they can then choose to start over and play the two levels over again or they can quit the game and the application will close. Each level also contains health pickups and ammo pickups, which will replenish the player's health and ammo supply. The player's health is capped at 100, and the starting amount of ammo is 10. 
 
