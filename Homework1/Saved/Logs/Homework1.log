@@ -3111,3 +3111,83 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.10.31-02.44.48:715][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.22 sec (total: 4.95 sec)
 [2024.10.31-02.44.48:719][353]AssetCheck: New page: Asset Save: BP_Crystal
 [2024.10.31-02.44.48:719][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyAssets/BP_Crystal.BP_Crystal
+[2024.10.31-02.48.54:007][254]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10760.876953
+[2024.10.31-02.48.55:008][257]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.48.55:008][257]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10761.541992, Update Interval: 314.815521
+[2024.10.31-02.49.22:487][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.31-02.49.22:659][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.49.22:660][404]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelTwo.LevelTwo
+[2024.10.31-02.49.22:660][404]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-02.49.22:660][404]LightingResults: New page: Lighting Build
+[2024.10.31-02.49.22:661][404]LoadErrors: New page: Loading map: LevelTwo.umap
+[2024.10.31-02.49.22:698][404]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.49.22:698][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.49.22:698][404]MapCheck: New page: Map Check
+[2024.10.31-02.49.22:698][404]LightingResults: New page: Lighting Build
+[2024.10.31-02.49.22:713][404]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-02.49.22:723][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.10.31-02.49.22:728][404]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.49.22:728][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.49.22:745][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.10.31-02.49.22:763][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.10.31-02.49.22:768][404]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelTwo'.
+[2024.10.31-02.49.22:768][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.49.22:769][404]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-02.49.22:769][404]LogAIModule: Creating AISystem for world LevelTwo
+[2024.10.31-02.49.22:848][404]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-02.49.22:864][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.10.31-02.49.22:874][404]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-02.49.22:875][404]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.238ms to complete.
+[2024.10.31-02.49.29:690][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.10.31-02.49.29:848][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.49.29:869][493]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelOne.LevelOne
+[2024.10.31-02.49.29:869][493]Cmd: MAP LOAD FILE="../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.31-02.49.29:869][493]LightingResults: New page: Lighting Build
+[2024.10.31-02.49.29:869][493]LoadErrors: New page: Loading map: LevelOne.umap
+[2024.10.31-02.49.29:896][493]LogWorld: UWorld::CleanupWorld for LevelTwo, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.49.29:896][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.49.29:896][493]MapCheck: New page: Map Check
+[2024.10.31-02.49.29:896][493]LightingResults: New page: Lighting Build
+[2024.10.31-02.49.29:923][493]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-02.49.29:926][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.10.31-02.49.29:929][493]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-02.49.29:930][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-02.49.29:956][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.10.31-02.49.29:975][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.10.31-02.49.30:009][493]LogAudio: Display: Audio Device (ID: 1) registered with world 'LevelOne'.
+[2024.10.31-02.49.30:009][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-02.49.30:009][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-02.49.30:009][493]LogAIModule: Creating AISystem for world LevelOne
+[2024.10.31-02.49.30:127][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.31-02.49.30:152][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.10.31-02.49.30:160][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.31-02.49.30:160][493]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.313ms to complete.
+[2024.10.31-02.50.47:525][196]LogShaderCompilers: Display: ================================================
+[2024.10.31-02.50.47:525][196]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.31-02.50.47:525][196]LogShaderCompilers: Display: Total job queries 16, among them cache hits 5 (31.25%)
+[2024.10.31-02.50.47:525][196]LogShaderCompilers: Display: Tracking 11 distinct input hashes that result in 11 distinct outputs (100.00%)
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: RAM used: 256.13 KiB of 819.20 MiB budget. Usage: 0.03%
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.31-02.50.47:526][196]LogShaderCompilers: Display: ================================================
+[2024.10.31-02.50.59:230][343]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-02.50.59:362][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.31-02.50.59:492][343]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.31-02.50.59:494][343]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne28E00CD042148E55B0565A83CC31ACF1.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.31-02.50.59:506][343]LogFileHelpers: Saving map 'LevelOne' took 0.196
+[2024.10.31-02.50.59:519][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 289 ms (total: 5.24 sec)
+[2024.10.31-02.50.59:524][343]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.31-02.50.59:524][343]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.31-02.51.00:266][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-02.51.00:504][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.10.31-02.51.00:634][354]LogSavePackage: Moving output files for package: /Game/LevelOne
+[2024.10.31-02.51.00:635][354]LogSavePackage: Moving '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Saved/LevelOne4FFA03AF4FB36C89662C9786CBBE9EA5.tmp' to '../../../../../../Users/aherv/OneDrive - Colostate/Documents/GitHub/FA24-HerveyA-LaneL/Homework1/Content/LevelOne.umap'
+[2024.10.31-02.51.00:647][354]LogFileHelpers: Saving map 'LevelOne' took 0.189
+[2024.10.31-02.51.00:659][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 394 ms (total: 5.63 sec)
+[2024.10.31-02.51.00:665][354]AssetCheck: New page: Asset Save: LevelOne
+[2024.10.31-02.51.00:665][354]LogContentValidation: Display: Validating /Script/Engine.World /Game/LevelOne.LevelOne
+[2024.10.31-02.55.08:871][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11135.742188
+[2024.10.31-02.55.09:871][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.10.31-02.55.09:873][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11136.409180, Update Interval: 303.129364
