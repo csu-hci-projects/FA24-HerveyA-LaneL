@@ -27,6 +27,13 @@
 
 [Homework1 Zip](https://drive.google.com/file/d/1vV-ggF7BUum6O04hDh6aH3uhfrHhRJTg/view?usp=sharing)
 
+[AI Report - Ashly Hervey and Livia Lane.pdf](https://github.com/user-attachments/files/18030759/AI.Report.-.Ashly.Hervey.and.Livia.Lane.pdf)
+
+<a href="">CS310H Homework 2 Game Walkthrough: https://youtu.be/qWz5tkQL8FM</a>
+
+<a href="">CS310H Homework 2 BluePrint Walkthrough: https://youtu.be/IGFp3e-CZ2s</a>
+
+
 
 ## HW1 Project Description:
 
