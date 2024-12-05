@@ -80,19 +80,35 @@ October 30th: Discussed challenges with our development and came up with a plan 
 October 31st: Met for finishing touches on game where we made sure all aspects of the project worked cohesively together. We also made the videos and reports based off of our finished project.
 
 
-## HW1 Project Description:
+## HW2 Project Description:
+
+This program is a first person shooter (FPS) VR game built in Unreal Engine, version 5.1.1. The goal of this game is to destroy all of the targets in the main level to be progressed to a win level signifying the game has been completed. This game follows a standard VR game in that you can only teleport within a certain range and once you teleport outside of this range you are returned to your starting position. There are 8 basic targets and 1 special target in the game that hneed to be destroyed in order to beat the game. The special target unlocks a no teleport zone once destroyed. All of the targets have a hit counter displayed above them in the game, once the targets are hit once they change color and once they are hit twice they are destroyed. The player is given a gun at the start of the level that contains 15 ammo. The gun can reload once it's out of ammo where a slight delay is triggered before the ammo is reloaded as well as a sound is triggered once the reload occurs. There are also grabbables scattered throughout the level that the player can interact with. Aside from this there is a win level that is loaded once all targets in the level have been destroyed where a win message is displayed to the player. 
 
 
-## HW1 Task Delegation:
+## HW2 Task Delegation:
 
 Livia:
-* 
+* Added static meshes to win level
+* Added pistol reload blueprint to track ammo
+* Added pistol reload delay
+* Added targets with target counters above them
+* Added target color change after 1 hit and deletion after 2 hits
+* Added win level transition after targets destroyed
+* Added text to win message to win level
+* Added target destroyed print statements
 
 Ashly:
-* 
+* Added teleportation to main level
+* Added teleporation to win level
+* Added static meshes to main level
+* Added static meshes to win level
+* Added No Teleport Zone to main level
+* Added target that unlocks no teleport after it's destroyed
+* Added grabbables to main level
+* Debugged win level
 
 
-## HW1 Resources Beyond This Class:
+## HW2 Resources Beyond This Class:
 
 
-## HW1 Meetings with your group:
+## HW2 Meetings with your group:
