@@ -8,6 +8,12 @@
 
 <a href="https://www.youtube.com/watch?v=GP0LQgudYUc">Lab video 8: https://www.youtube.com/watch?v=GP0LQgudYUc</a>
 
+<a href="https://youtu.be/spuK40W6l2Y">Lab 3 VR video 2: https://youtu.be/spuK40W6l2Y</a>
+
+<a href="https://www.youtube.com/watch?v=U-W1TllgPmA">Lab 4 VR video 3: https://www.youtube.com/watch?v=U-W1TllgPmA</a>
+
+<a href="https://www.youtube.com/watch?v=CnvOQDoJdI4">Lab 5 VR video 4: https://www.youtube.com/watch?v=CnvOQDoJdI4</a>
+
 <a href="https://www.youtube.com/watch?v=vO1i9Wcx4Xc">Health and Damage System Tutorial: https://www.youtube.com/watch?v=vO1i9Wcx4X</a>
 
 <a href="https://www.youtube.com/watch?v=kumZj_mov58&t=23s">Main Menu Tutorial: https://www.youtube.com/watch?v=kumZj_mov58&t=23s</a>
