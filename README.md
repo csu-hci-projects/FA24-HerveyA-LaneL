@@ -109,6 +109,12 @@ Ashly:
 
 
 ## HW2 Resources Beyond This Class:
-
+For HW2 we did not use any resources beyond this class. We found that at this point everything either had a tutorial that could be found in the course canvas page or it was intuitive enough to implement without needing external help. 
 
 ## HW2 Meetings with your group:
+
+December 2nd: Met in class and discussed how far we had come in the game. We also delegated the final tasks left in the game to make sure the game would be completed (without major playtesting) by the next meetup. 
+
+December 4th: Met in class and discussed final touches that needed to be made to the game. 
+
+December 5th: Met and finalized game by playtesting and patching any last minute bugs before our final submission. 
