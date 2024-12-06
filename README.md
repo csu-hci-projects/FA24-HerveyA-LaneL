@@ -35,7 +35,7 @@
 
 [AI Report - Ashly Hervey and Livia Lane.pdf](https://github.com/user-attachments/files/18030759/AI.Report.-.Ashly.Hervey.and.Livia.Lane.pdf)
 
-<a href="">CS310H Homework 2 Game Walkthrough: https://youtu.be/qWz5tkQL8FM</a>
+<a href="https://youtu.be/1kmiCKhqbt4">CS310H Homework 2 Game Walkthrough: https://youtu.be/1kmiCKhqbt4</a>
 
 <a href="">CS310H Homework 2 BluePrint Walkthrough: https://youtu.be/IGFp3e-CZ2s</a>
 
