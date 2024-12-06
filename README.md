@@ -37,7 +37,7 @@
 
 <a href="https://youtu.be/1kmiCKhqbt4">CS310H Homework 2 Game Walkthrough: https://youtu.be/1kmiCKhqbt4</a>
 
-<a href="">CS310H Homework 2 BluePrint Walkthrough: https://youtu.be/IGFp3e-CZ2s</a>
+<a href="https://youtu.be/U9QcVLHYoZk">CS310H Homework 2 BluePrint Walkthrough: https://youtu.be/U9QcVLHYoZk</a>
 
 
 
